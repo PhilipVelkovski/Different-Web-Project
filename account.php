@@ -1,5 +1,5 @@
 <?php 
-$title = "Account";
+ $page_title = " Gambo - Dashboard";
 include 'partials/header.php';
 
 ?>

@@ -73,9 +73,13 @@ include 'partials/header.php';
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <form>
-                                            <div class="mb-3">
-                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                        <div class=" mb-2">
+                                        <input type="text" class="form-control cstm-lbl" id="exampleInputText" placeholder="">
+                                        <label for="floatingInput">Name</label>
+                                           </div>
+                                            <div class="mb-4">
+                                                <label for="exampleInputEmail1" class="form-label cstm-lbl">Email address</label>
+                                                <input type="email" class="form-control cstm-lbl" id="exampleInputEmail1"
                                                     aria-describedby="emailHelp">
                                                 <div id="emailHelp" class="form-text">We'll never share your email with
                                                     anyone else.</div>
@@ -139,7 +143,50 @@ include 'partials/header.php';
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-5"></div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="order">
+                        <div class="order-title">Order Summary</div>
+                        <div class="order-product">
+                            <div class="order-img">    
+                            <img src="/Images/pick-five.jpg" alt="offer">
+                               <div class="discout-off">4% off</div>
+                            </div>
+                              <div class="order-text">
+                                  <div class="orderd-title">Product offer here <span>X</span></div>
+                                  <div class="order-price">
+                                      $15 <span>$18</span>
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="order-items">
+                            <div class="order-product-text">Gambo Super Market</div>
+                            <div class="order-product-text-1">$15</div>
+                        </div>
+                        <div class="order-items">
+                            <div class="order-product-text">Delivery Charges</div>
+                            <div class="order-product-text-1">$1</div>
+                        </div>
+                        <div class="order-items">
+                            <div class="order-product-text">Total Saving</div>
+                            <div class="order-product-text-1">$3</div>
+                        </div>
+                        <div class="total">
+                            <div class="cena">Total</div>
+                            <div class="cena-2">$16</div>
+                        </div>
+                        <div class="payment-secure"><i class="bi bi-lock"></i>Secure checkout</div>
+                    </div>
+                    <br>
+                    <div class="promo">
+                    <a href="#" >Have a promocode?</a>
+                    </div>
+                   
+                    <div class="save-checkout">
+                        <p><i class="bi bi-recycle"></i> 100% Replacement Guarantee</p>
+                        <p><i class="bi bi-check-square"></i>100% Genuine Products</p>
+                        <p><i class="bi bi-envelope-check"></i>Secure Payments</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

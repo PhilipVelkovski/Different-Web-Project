@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
+    <link rel="icon" type="image/x-icon" href="/favicon/Logo.png">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link  rel="stylesheet"  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 
-
+   
     <link rel="stylesheet" href="style.css">
     <script src="/js/jquery.min.js"></script>
   <title> <?php echo $page_title; ?></title>
@@ -27,7 +27,7 @@
                 
                     <div class="logo-wraper">
                         <a href="/index.php">
-                            <img src="/Images/logo_gambo.svg" style="width:115px;" alt="logo-image"></a>
+                            <img src="/Images/logo_gambo.svg" style="width:125px;" alt="logo-image"></a>
                     </div>
                     
                     <div class="mobile-logo">
@@ -93,7 +93,7 @@
                     <div class="user-anchor">
                         <a href="#" class="user-account">
                             <img src="/Images/profile-img.jpg" alt="profile" id="profile-img">
-                            JhonDoe <i class="bi bi-chevron-compact-down"></i>
+                            Jhon DOe <i class="bi bi-chevron-compact-down"></i>
                         </a> <br>
                         <ul class="toggle-user-list">
 
@@ -134,6 +134,7 @@
             </div>
         </div>
         <div class="header-bottom row">
+            
             <div class="col-4 col-lg-2 col-md-3" style="padding:0; ">
                 <div class="select-category-btn">
                     <a href="#">
@@ -148,15 +149,14 @@
                     <i class="bi bi-three-dots"></i>
                 </div>
             </div>
-            <div class="col col-lg-6 col-md-6 hide-this-links">
+            <div class="col col-lg-8 col-md-6 hide-this-links">
                 <div class="head-botoom-links">
-                    <a href="#">Home</a>
+                    <!-- <a href="#">Home</a>
                     <a href="#">New Product</a>
                     <a href="#">Featured Products</a>
                     <a href="#" class="pages-list-wrapper">Pages <i class="bi bi-chevron-down"></i>
-                     
                         <ul class="pages-list">
-                            <li>Abaut Us</li>
+                            <li><a href="#">Abaut Us</a></li>
                             <li>Shop Grid</li>
                             <li>Single Product View</li>
                             <li>Checkout</li>
@@ -172,14 +172,48 @@
                      </a>
                     <a href="#" class="blog-list">Blog <i class="bi bi-chevron-down"></i>
                        
-                    <ul class="togle-blog-list">
+                  
+                    </a>
+                    <a href="">Contact Us</a> -->
+                    <ul>
+                        <li>Home</li>
+                        <li>New Product</li>
+                        <li>Featured Products</li>
+                        <li class="pages-list-wrapper" >Pages <i class="bi bi-chevron-down"></i>
+                     <div class="pages-list">
+                     <ul>
+                            
+                     <li><a href="/account.php">Account</a></li>
+                            <li><a href="/aboutus.php">Abaut Us</a></li>
+                            <li><a href="/shopgrid.php">Shop Grid</a></li>
+                            <li><a href="#">Single Product View</a></li>
+                            <li><a href="/checkout.php">Checkout</a></li>
+                            <li><a href="#">Product Request</a></li>
+                            <li><a href="/order.php">Order Placed</a></li>
+                            <li><a href="/bill.php">Bill Slip</a></li>
+                            <li><a href="#">Sing In</a></li>
+                            <li><a href="#">Sing Up</a></li>
+                            <li><a href="#">Forgot Password</a></li>
+                            <li><a href="/contact.php">Contact Us</a></li>
+                        </ul>
+                     </div>   
+                    </li>
+                        <li class="blog-list">Blog <i class="bi bi-chevron-down"></i>
+                        <div class="togle-blog-list">
+                        <ul>
                             <li> Our Blog </li>
                             <li>Blog Details</li>
                         </ul>
-                    </a>
-                    <a href="">Contact Us</a>
+                        </div>
+                       
+                        </li>
+                        <li>Contact Us</li>
+                    </ul>
                 </div>
             </div>
+
+
+
             <div class="col-4 col-lg-2 col-md-3 " style="padding:0;">
                 <div class="cart-btn">
                     <a href="#"><i class="bi bi-cart3"></i> Cart <i class="bi bi-chevron-down"></i></a>
@@ -405,7 +439,132 @@
 
         </div>
     </div>
+  <!-- CART POP UP -->
 
+  <div class="hide-cart-pop-up">
+        <div class="cart-category">
+            <div class="cart-category-wrapper">
+                <div class="cart-headline">
+                    <div class="cart-text">
+                        My cart <span>(2 items)</span>
+                    </div>
+                    <span id="exit-cart-pop-up">X</span>
+                </div>
+                <div class="cart-price">
+                    <div class="cart-price-text">
+                        Gambo Super Market
+                        <span>$34</span>
+                    </div>
+                    <div class="cart-price-text">
+                        Delivery Charges
+                        <span>$4</span>
+                    </div>
+
+                </div>
+                <div class="cart-products">
+                    <div class="inside-product">
+                        <div class="cart-img">
+                            <img src="/Images/pick-five.jpg" alt="strawberry">
+                            <div class="discount-offer">6% OFF</div>
+                        </div>
+                        <div class="cart-product-text">
+                            <div class="offer-text">
+                                <span id="title-offer">Product Title Here</span>
+                                <span id="exit-cart-offer">X</span>
+                            </div>
+                            <div class="cart-pick-offer">
+                                <div class="radio-btn-cart">
+                                    <input type="radio" id="radio1" name="radios" value="all" checked>
+                                    <label for="radio1">0.54</label>
+                                </div>
+                                <div class="radio-btn-cart">
+                                    <input type="radio" id="radio2" name="radios" value="all" checked>
+                                    <label for="radio2">5kg</label>
+                                </div>
+                                <div class="radio-btn-cart">
+                                    <input type="radio" id="radio3" name="radios" value="all" checked>
+                                    <label for="radio3">20kg</label>
+                                </div>
+                                <div class="radio-btn-cart">
+                                    <input type="radio" id="radio4" name="radios" value="all" checked>
+                                    <label for="radio4">60kg</label>
+                                </div>
+                            </div>
+                            <div class="add-products">
+                                <div class="counter">
+                                    <input type="button" id="cart-minus" value="-">
+                                    <input type="text" id="cart-quantity" value="1">
+                                    <input type="button" id="cart-add" value="+">
+                                </div>
+                                <div class="cart-price-inside">
+                                    $10 
+                                    <span>$15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-products" style="height: 230px;">
+                    <div class="inside-product">
+                        <div class="cart-img">
+                            <img src="/Images/pick-three.jpg" alt="strawberry">
+                            <div class="discount-offer">6% OFF</div>
+                        </div>
+                        <div class="cart-product-text">
+                            <div class="offer-text">
+                                <span id="title-offer">Product Title Here</span>
+                                <span id="exit-cart-offer">X</span>
+                            </div>
+                            <div class="cart-pick-offer">
+                                <div class="radio-btn-cart">
+                                    <input type="radio" id="radio1" name="radios" value="all" checked>
+                                    <label for="radio1">0.54</label>
+                                </div>
+                                <div class="radio-btn-cart">
+                                    <input type="radio" id="radio2" name="radios" value="all" checked>
+                                    <label for="radio2">5kg</label>
+                                </div>
+                                <div class="radio-btn-cart">
+                                    <input type="radio" id="radio3" name="radios" value="all" checked>
+                                    <label for="radio3">20kg</label>
+                                </div>
+                                <div class="radio-btn-cart">
+                                    <input type="radio" id="radio4" name="radios" value="all" checked>
+                                    <label for="radio4">60kg</label>
+                                </div>
+                            </div>
+                            <div class="add-products">
+                                <div class="counter">
+                                    <input type="button" id="cart-minus" value="-">
+                                    <input type="text" id="cart-quantity" value="1">
+                                    <input type="button" id="cart-add" value="+">
+                                </div>
+                                <div class="cart-price-inside">
+                                    $10 
+                                    <span>$15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-savings">
+                    <div class="save-text-one">
+                        Total Saving <span>$11</span>
+                    </div>
+                    
+                    <div class="save-text-two">
+                        Total <span>$35</span>
+                    </div>
+                </div>
+                <div class="cart-checkout">
+                    <div class="promo-code-ques">Have a promocode?</div>
+                    <div class="check-out-btn">
+                        <button>Proceed to Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- <i class="bi bi-border-all"></i>
     <i class="bi bi-box-seam"></i>
     <i class="bi bi-heart"></i>
