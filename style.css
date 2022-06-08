@@ -71,7 +71,7 @@ body {
 }
 .report a{
     text-decoration: none;
-    background-color: #f38c1f;
+    background-color: #f55d2c;
     padding: 9px;
     color: white;
     font-weight: 800;
@@ -2331,10 +2331,10 @@ display: block;
     border: none;
     float: right;
     /* padding: 7px; */
-    width: 70px;
-    height: 45px;
+    width: 74px;
+    /* height: 44px; */
     border: nov;
-    background-color: aqua;
+    background-color: #f55d2c;
     border-radius: 18%;
     color: white;
 }
