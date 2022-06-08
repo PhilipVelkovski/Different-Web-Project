@@ -16,32 +16,21 @@
 
 $(document).ready(function(){
      //SWIPER
-
-
      var swiper = new Swiper(".mySwiper", {
-        loop: true,
+        spaceBetween: 10,
         slidesPerView: 3,
-        spaceBetween: 25,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        }, 
-        autplay: {
-            delay:5000,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
-        breakpoints: {
-            // when window width is >= 320px
-            320: {
-              slidesPerView: 1,
-            },
-            // when window width is >= 480px
-           
-            // when window width is >= 640px
-            640: {
-              slidesPerView: 3,
-              spaceBetween: 40
-            }   
-          }
+        thumbs: {
+          swiper: swiper,
+        },
       });
 
      $(".hidden-search-btn").click(function(){
