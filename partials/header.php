@@ -188,7 +188,7 @@
                             <li><a href="/shopgrid.php">Shop Grid</a></li>
                             <li><a href="#">Single Product View</a></li>
                             <li><a href="/checkout.php">Checkout</a></li>
-                            <li><a href="#">Product Request</a></li>
+                            <li><a href="/productrequest.php">Product Request</a></li>
                             <li><a href="/order.php">Order Placed</a></li>
                             <li><a href="/bill.php">Bill Slip</a></li>
                             <li><a href="#">Sing In</a></li>

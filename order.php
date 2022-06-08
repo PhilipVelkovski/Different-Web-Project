@@ -10,7 +10,7 @@ include 'partials/header.php';
                 <div class="row">
                     <div class="col-md-12">
                         <nav style="display:flex;">
-                            <span style="color:grey;">Home/</span><span>User Placed</span>
+                            <span style="color:grey;">Home/</span><span>Order Placed</span>
                         </nav>
                     </div>
                 </div>

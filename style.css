@@ -2342,8 +2342,91 @@ display: block;
     padding:30px;
     border-bottom: 1px solid gainsboro;
 }
+/*REQUEST PRODUCT PAGE*/
+.request-headline{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.request-headline h4{
+    text-align: center;
+    font-size: 24px;
+    color: #2b2f4c;
+    font-weight:bolder;
+}
+.request-headline p{
+    margin: 0%;
+    font-size: 12px;
+    color:#8f91ac;
+}
+.request-headline i{
+    color: #f55d2c;
+    font-size: 12px;
+}
+.product-text-search{
+  width: 100%;
+  text-align: center;
+}
+#reqproduct{
+    width: 100%;
+    border: 1px solid #eddfdf;
+    border-radius: 4%;
+    height: 35px;
+    padding-left: 20px;
+    margin-bottom: 22px;
 
+}
 
+.product-submit{
+    padding-top: 11px;
+    margin-top: 14px;
+}
+.product-submit button {
+    height: 40px;
+    padding: 9px 20px;
+    border: none;
+    background: #f55d2c;
+    color: #fff;
+    border-radius: 5px;
+    font-family: roboto,sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+}
+.product-submit button:hover{
+    background: linear-gradient(to right,rgba(45, 45, 80, 0.693),#f55d2c);
+}
+.request-how-to{
+    padding-top:80px;
+}
+.product-btns{
+    background-color: white;
+    padding:23px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    height: 100%;
+    width: 100%;
+}
+.product-icon{
+    background-color: #f55d2c;
+    width: 95px;
+    height: 95px;
+    text-align: center;
+    margin: auto;
+    padding: 13px;
+    font-size: xxx-large;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.product-text{
+    padding: 22px;
+    text-align: center;
+    font-size: 19px;
+    color: #2b2f4c;
+    font-weight: bolder;
+}
 /*Responsive Media Queries*/
 
 @media only screen and (max-width: 994px) {

@@ -1,7 +1,6 @@
 <?php
 $page_title = "Gambo - About Us";
 include 'partials/header.php';
-
 ?>
 
 <div class="wrapper">
