@@ -150,34 +150,10 @@
             </div>
             <div class="col col-lg-8 col-md-6 hide-this-links">
                 <div class="head-botoom-links">
-                    <!-- <a href="#">Home</a>
-                    <a href="#">New Product</a>
-                    <a href="#">Featured Products</a>
-                    <a href="#" class="pages-list-wrapper">Pages <i class="bi bi-chevron-down"></i>
-                        <ul class="pages-list">
-                            <li><a href="#">Abaut Us</a></li>
-                            <li>Shop Grid</li>
-                            <li>Single Product View</li>
-                            <li>Checkout</li>
-                            <li>Product Request</li>
-                            <li>Order Placed</li>
-                            <li>Bill Slip</li>
-                            <li>Sing In</li>
-                            <li>Sing Up</li>
-                            <li>Forgot Password</li>
-                            <li>Contact Us</li>
-                        </ul>
-
-                     </a>
-                    <a href="#" class="blog-list">Blog <i class="bi bi-chevron-down"></i>
-                       
-                  
-                    </a>
-                    <a href="">Contact Us</a> -->
                     <ul>
-                        <li>Home</li>
-                        <li>New Product</li>
-                        <li>Featured Products</li>
+                        <li><a href="/index.php">Home</a></li>
+                        <li><a href="/shopgrid.php">New Product</a></li>
+                        <li><a href="/shopgrid.php">Featured Products</a></li>
                         <li class="pages-list-wrapper" >Pages <i class="bi bi-chevron-down"></i>
                      <div class="pages-list">
                      <ul>
@@ -190,9 +166,9 @@
                             <li><a href="/productrequest.php">Product Request</a></li>
                             <li><a href="/order.php">Order Placed</a></li>
                             <li><a href="/bill.php">Bill Slip</a></li>
-                            <li><a href="#">Sing In</a></li>
-                            <li><a href="#">Sing Up</a></li>
-                            <li><a href="#">Forgot Password</a></li>
+                            <li><a href="/singin.php">Sing In</a></li>
+                            <li><a href="/singup.php">Sing Up</a></li>
+                            <li><a href="/forgotpass.php">Forgot Password</a></li>
                             <li><a href="/contact.php">Contact Us</a></li>
                         </ul>
                      </div>   

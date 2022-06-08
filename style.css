@@ -376,6 +376,10 @@ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
     text-decoration: none;
     color: #2b2f4c;
     font-size: 14px;
+}.head-botoom-links a:active{   
+    text-decoration: none;
+    color:#f38c1f;
+    font-size: 14px;
 }
 .head-botoom-links li:hover{
     color:#f55d2c;
