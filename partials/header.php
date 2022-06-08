@@ -75,8 +75,7 @@
 
             <div class="col-lg-3 col-sm-3 hide-search">
                 <div class="search-bar-wrapper">
-                    <input type="text" placeholder="Search for products.." id="search-bar"><i
-                        class="bi bi-search search-bar-icon"></i>
+                    <input type="text" placeholder="Search for products.." id="search-bar">
                 </div>
             </div>
             <div class="col-5 col-lg-6 col-md-8 col-sm-8">

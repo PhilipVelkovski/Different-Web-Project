@@ -45,7 +45,8 @@ $(document).ready(function(){
       });
 
      $(".hidden-search-btn").click(function(){
-        $(".hidden-search-pop-up").show();
+        $(".hidden-search-pop-up").toggle(500);
+        $(".header").css({"position":"inherit"});
      });
      $(".exit-search").click(function(){
         $(".hidden-search-pop-up").hide();
@@ -169,7 +170,7 @@ $(document).ready(function(){
 });
  //CART-POP-UP
  $(".cart-btn").click(function(){
-     $(".hide-cart-pop-up").show();
+     $(".hide-cart-pop-up").toggle();
      $(".header").css({"position":"inherit"});
  });
  $("#exit-cart-pop-up").click(function(){

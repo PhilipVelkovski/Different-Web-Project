@@ -8,35 +8,7 @@ body {
   background-color: black;
   color: white;
 }
-/*LOGIN*/
-.register-user{
-    margin: auto;
-    width: 500px;
-    margin-top: 120px;
-    padding: 20px;
-    background: lawngreen;
-    border-radius: 10%;
-    height: 350px;
 
-}
-.cstm-form{
-    width: 60%;
-    margin: auto;
-}
-.register-text{
-    text-align: center;
-    font-size: xx-large;
-    font-weight: 700;
-    color: aliceblue;
-}
-.register-background{
-    
-    height: 100vh;
-    height: 100hv;
-    width: 100;
-    padding: 29px;
-    background: radial-gradient(#fe6a08, #b6ba1173);
-}
 /*CSS for header *********************************************************/ 
 .header-custom {
     background-color: #fff;
@@ -182,7 +154,7 @@ body {
     padding-left: 10px;
 }
 /*Search-bar*/
-.search-bar-wrapper {
+/* .search-bar-wrapper {
     position: relative;
 }
 
@@ -203,8 +175,21 @@ body {
     margin-top: 3px;
     margin-left: 2%;
     color: rgb(137, 137, 137);
-}
-
+} */
+.search-bar-wrapper input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    background-image: url(/Images/search.svg);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 33px;
+    outline: none;
+    height: 38px;
+  }
 /*top-header-right-links */
 .top-header-right-links {
     display: flex;
@@ -602,9 +587,17 @@ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
 }
 .search-headline input{
     width: 100%;
-    height: 100%;
-    padding: 1;
-    padding: 12px;
+    box-sizing: border-box;
+    border: none;
+    /* border-radius: 4px; */
+    font-size: 16px;
+    background-color: #f2f2f2;
+    background-image: url(/Images/search.svg);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 33px;
+    outline: none;
+    height: 38px;
 }
 .search-items{
     height: 311px;
@@ -2427,6 +2420,136 @@ display: block;
     color: #2b2f4c;
     font-weight: bolder;
 }
+
+/*LOGIN-page*/
+.sing-in-page{
+    padding: 80px 0px ;
+}
+.sing-in-logo{
+    width: 100%;
+    text-align: center;
+}
+.sing-in-logo img{
+    width: 150px;
+}
+.sing-in-form-wrapper{
+    margin-top: 50px;
+    border: 1px solid #efefef;
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    height: 390px;
+    border-radius: 20px 20px 0px 0px;
+}
+.sing-in-form{
+    padding: 30px 30px 0px;
+    border-radius: 0px 0px 0px 0px;
+
+}
+.enter-phone{
+    width: 100%;
+    position: relative;
+}
+.enter-phone i{
+    position: absolute;
+    left: 8px;
+    bottom: -1px;
+    font-size: 20px;
+    color: #2b2f4c;
+    font-weight: 600;
+}
+.enter-password{
+    width: 100%;
+    position: relative;
+}
+.enter-password i{
+    position: absolute;
+    left: 8px;
+    bottom: -1px;
+    font-size: 20px;
+    color: #2b2f4c;
+    font-weight: 600;
+}
+.form-title{
+    width: 100%;
+   text-align: center;
+   
+}
+
+.form-title h3{
+    width: 100%;
+    text-align: center;
+    color: #3e3f5e;
+    font-weight: 600;
+    margin-bottom:40px;
+}
+#sing_in_phone{
+    width: 100%;
+    padding-left: 30px;
+    border: none;
+    outline: none;
+}
+
+
+#sing_in_pass{
+    width: 100%;
+    padding-left: 30px;
+    border: none;
+    outline: none;
+}
+#sing_in_btn{
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    color: #fff;
+    background: #f55d2c;
+    border-radius: 5px;
+    
+    text-align: center;
+}
+#sing_in_btn:hover{
+    background: linear-gradient(to right,rgba(78, 78, 173, 0.719),red);
+}
+.forgotpass{
+    text-align: center;
+    padding: 11px;
+    margin-bottom: 10px;
+    height: 60px;
+    margin-top: 20px;
+}
+.forgotpass a{
+    color: #888;
+    padding: 0;
+    font-size: 16px;
+    text-decoration: none;
+}
+.sing-up-link{
+    width: 100%;
+    background: linear-gradient(to right,rgba(230,92,91,0.9),rgba(245,93,44,0.9));
+    padding: 19px;
+    border-radius: 0px 0px 20px 20px;
+}
+.sing-up-link p{
+    float: left;
+    padding-right: 10px;
+    padding-left: 38px;
+    color: white;
+    font-size: 15px;
+}
+.sing-up-link a{
+    text-decoration: none;
+    color: white;
+    background: #2b2f4c;
+    padding: 10px;
+    font-size: 12px;
+}
+.copy-right{
+    font-size: 12px;
+    text-align: center;
+}
+
 /*Responsive Media Queries*/
 
 @media only screen and (max-width: 994px) {
