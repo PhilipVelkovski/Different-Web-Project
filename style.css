@@ -9,8 +9,11 @@ body {
   color: white;
 }
 /*SLIDER*/
+.slider-2{
+    width: 50px;
+}
 .swiper {
-    width: 100%;
+  width: 100%;
     height: 100%;
   }
 
@@ -41,45 +44,6 @@ body {
     object-fit: cover;
   }
 
-  .swiper {
-    width: 100%;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .swiper-slide {
-    background-size: cover;
-    background-position: center;
-  }
-
-  .mySwiper2 {
-    height: 80%;
-    width: 100%;
-  }
-
-  .mySwiper {
-    height: 20%;
-    box-sizing: border-box;
-    padding: 10px 0;
-  }
-
-  .mySwiper .swiper-slide {
-    width: 25%;
-    height: 100%;
-    opacity: 0.4;
-  }
-
-  .mySwiper .swiper-slide-thumb-active {
-    opacity: 1;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
 /*CSS for header *********************************************************/ 
 .header-custom {
     background-color: #fff;
@@ -842,6 +806,7 @@ width: 100%;
 }
 .footer-last-links{
    display: flex;
+   text-align: center;
    justify-content: space-around;
 }
 .footer-last-links p{
@@ -850,6 +815,13 @@ width: 100%;
    font-weight: 600;
    text-align: left;
    line-height: 24px;
+}
+.footer-last-links li{
+    display: inline-block;
+    color: #3e3f5e;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
 }
 .footer-last-links p:hover{
    color: #ddd;
@@ -968,7 +940,7 @@ margin: 35px 0;
     width: 500px;
 }
 .product-image-offers{
-    width: 400px;
+ 
     position: relative;
     /* padding: 10px; */
     border: 7px solid white;
@@ -977,18 +949,55 @@ margin: 35px 0;
 .product-image-offers img{
     width: 100%;
 }
-
-.offers{
-    width: 160px;
+.product-offer{
+    position: relative;
+}
+.offer-title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #2b2f4c;
+    margin-bottom: 5px;
+    line-height: 24px;
     position: absolute;
-    top: 40px;
-    height: 84px;
-    /* display: inline-block; */
-    left: 2px;
-    padding-left: 10px;
-    border-radius: 0 30px 30px 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.805);
+    text-align: left;
+    bottom: 30px;
+
+}
+.offers span{
+    font-weight: 500;
+    font-size: 14px;
+    color: #8f91ac;
+    text-align: left;
+    line-height: 24px;
+    position: absolute;
+    left: 20px;
+    /* bottom: -40px; */
+    bottom: 0;
+}
+.offers p{
+    
+    position: absolute;
+    font-size: 21px;
+    font-weight: 600;
+    color: #f55d2c;
+    left: 40px;
+    margin-bottom: 3px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.offers{
+    position: absolute;
+    top: 20px;
+    /* left: 5px; */
+    background: rgba(255,255,255,0.9);
+    padding: 15px 15px 11px;
+    width: 220px;
+    height: 104px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+
+
 }
 .discount{
     font-weight: 600;
@@ -1015,15 +1024,18 @@ margin: 35px 0;
 }
 
 .shop-now-btn{    
-    right: 30px;
     position: absolute;
     bottom: 20px;
     background-color: #f55d2c;
-    /* width: 40%; */
+    width: 40%;
     text-align: center;
-    /* height: 20%; */
-    padding: 11px;
+    height: 20%;
+    padding: 10px;
     border-radius: 13%;
+    right: 25px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
 }
 .shop-now-btn a{
     text-decoration: none;
@@ -1035,18 +1047,27 @@ margin: 35px 0;
     margin-bottom: 27px;
     /* display: flex; */
     align-items: flex-end;
-    padding-left: 50px;
+  
+}
+.shop-by-category-item a{
+    width: 100%;
+    display: block;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
 }
 .title-shop{
     margin-right: auto;
 }
 .title-shop span{
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 600;
     text-align: left;
     color: #f55d2c;
     margin-bottom: 10px;
     display: block;
+
 }
 .title-shop h2{
     font-size: 24px;
@@ -1079,19 +1100,18 @@ margin: 35px 0;
     text-align: center;
 }
 .category-item-image img{
-    width: 100%;
-    padding: 10%;
+  width: 100%;
+    padding: 30px;
     
 }
-.categgory-item h4{
-    font-size: 14px;
-    font-weight: 500;
-    color: #2b2f4c;
-    margin-top: 15px;
+.category-item-text{
+    font-size: 15px;
     text-align: center;
+    display: inline-block;
 }
 .category-item-image{
     padding: 10%;
+    width: 100%;
 }
 
 .top-featured-products h2{
@@ -1188,7 +1208,7 @@ margin: 35px 0;
 }
 .place-order{    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 23px;
     font-weight: bold;
 }
@@ -1209,11 +1229,18 @@ margin: 35px 0;
 }
 .quantity-item{
     width: 50%;
-    display: flex;
+ 
 
 }
 #quantity{
-    width: 24px;
+    width: 45px;
+    text-align: start;
+    font-size: 17px;
+    border: none;
+
+}
+#quantity-grid{
+    width: 13px;
     text-align: start;
     font-size: 17px;
     border: none;
@@ -2489,7 +2516,7 @@ display: block;
     font-weight: bold;
 }
 .product-text{
-    padding: 22px;
+
     text-align: center;
     font-size: 19px;
     color: #2b2f4c;
@@ -2738,7 +2765,6 @@ display: block;
     border-right: 1px solid #efefef;
 
     display: inline-block;
-    float: left;
 }
 .its-text{
     font-size: 14px;
@@ -2846,7 +2872,109 @@ display: block;
     width: 400px;
 }
 /*Responsive Media Queries*/
+@media only screen and(max-width:1200px){
+    .offers{
+        width: 180px;
+        height: 80px;
+    }
+    .offer-title{
+        bottom: 19px;
+    }
+    .shop-now-btn{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .offers{
+        width: 180px;
+        height: 80px;
+    }
+    .offer-title{
+        bottom: 19px;
+    }
+    .shop-now-btn{
+        padding: 6px 0px;
+        
+    }
+    .offers p{
+        position: absolute;
+        font-size: 21px;
+        font-weight: 600;
+        color: #f55d2c;
+        left: 40px;
+        top: 4px;
+        margin-bottom: 3px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .offers{
+        width: 200px;
+        height: 90px;
+    }
+    .shop-now-btn {
+        padding: 20px;
+        font-size: 17px;
+    }
+    .offer-title {
+        top: 40px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #2b2f4c;
+        margin-bottom: 5px;
+        line-height: 24px;
+        position: absolute;
+        text-align: left;
+    }
+    .offers p {
+        position: absolute;
+        font-size: 23px;
+        font-weight: 600;
+        color: #f55d2c;
+        left: 40px;
+        top: 9px;
+        margin-bottom: 3px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
 @media only screen and (max-width: 994px) {
+    .offers{
+        width: 150px;
+        height: 60px;
+    }
+    .offer-title{
+        top: 20px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #2b2f4c;
+        margin-bottom: 5px;
+        line-height: 24px;
+        position: absolute;
+        text-align: left;
+        /* bottom: 30px;*/
+    }
+    .shop-now-btn{
+        padding: 5px;
+        font-size: 14px;
+        
+    }
+    .offers p{
+        position: absolute;
+        font-size: 17px;
+        font-weight: 600;
+        color: #f55d2c;
+        left: 40px;
+        top: 3px;
+        margin-bottom: 3px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+   .search-bar-wrapper{
+       display: none;
+   }
     .hide-search{
         display: none;
     }
@@ -2883,6 +3011,32 @@ display: block;
         display: block;
     }
 }
+@media only screen and (max-width: 690px){
+    .offers{
+        width: 290px;
+        height: 119px;
+    }
+    .shop-now-btn {
+        font-size: 17px;
+    }
+    .offer-title {
+        top: 60px;
+        font-size: 19px;
+    }
+    .offers p {
+        font-size: 27px;
+        font-weight: 600;
+        color: #f55d2c;
+        left: 40px;
+        top: 13px;
+    }
+    .offers span{
+        bottom: 10px;
+    }
+    .shop-now-btn{
+        font-size: 30px;
+    }
+}
 @media only screen and (max-width: 580px) {
    .locatin-wrapper{
        display: none;
@@ -2890,6 +3044,13 @@ display: block;
    .locatin-wrapper-mobile{
        display: block;
    }
+   .cart-category-wrapper{
+       width: 300px;
+   }
+   .cart-category-wrapper .counter{
+       padding: 0;
+   }
+   
 }
 
 @media only screen and (max-width:994px) {

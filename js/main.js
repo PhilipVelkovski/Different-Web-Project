@@ -16,22 +16,136 @@
 
 $(document).ready(function(){
      //SWIPER
-     var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 10,
+    //  var swiper = new Swiper(".mySwiper", {
+    //     spaceBetween: 30,
+    //     slidesPerView: "auto",
+    //     freeMode: true,
+    //     watchSlidesProgress: true,
+    //   });
+    //   var swiper2 = new Swiper(".mySwiper2", {
+    //     spaceBetween: 10,
+    //     navigation: {
+    //       nextEl: ".swiper-button-next",
+    //       prevEl: ".swiper-button-prev",
+    //     },
+    //     thumbs: {
+    //       swiper: swiper,
+    //     },
+    //   });
+    var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
-        freeMode: true,
-        watchSlidesProgress: true,
-      });
-      var swiper2 = new Swiper(".mySwiper2", {
-        spaceBetween: 10,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
         },
-        thumbs: {
-          swiper: swiper,
-        },
+        breakpoints: {
+                  100:{
+                    slidesPerView: 1,
+                    spaceBetween: 20
+ 
+                  },
+                  // when window width is >= 320px
+                  320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                  },
+                  // when window width is >= 480px
+                  480: {
+                    slidesPerView:1,
+                    spaceBetween: 30
+                  },
+                  // when window width is >= 640px
+                  640: {
+                    slidesPerView: 2,
+                    spaceBetween: 40
+                  },
+                  940: {
+                    slidesPerView: 3,
+                    spaceBetween: 40
+                  }
+                },
       });
+      var swiper = new Swiper(".swiper-two", {
+        slidesPerView: "auto",
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+                  // when window width is >= 320px
+                  320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                  },
+                  // when window width is >= 480px
+                  480: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                  },
+                  // when window width is >= 640px
+                  640: {
+                    slidesPerView: 2,
+                    spaceBetween: 40
+                  },
+                  890:{
+                    slidesPerView: 6,
+                    spaceBetween: 40
+                  }
+                },
+      });
+    //   const swipers = new Swiper('.mySwiper', {
+    //     // Default parameters
+    //     slidesPerView: 2,
+    //     spaceBetween: 50,
+    //     // Responsive breakpoints
+    //     breakpoints: {
+    //       // when window width is >= 320px
+    //       320: {
+    //         slidesPerView: 2,
+    //         spaceBetween: 20
+    //       },
+    //       // when window width is >= 480px
+    //       480: {
+    //         slidesPerView: 3,
+    //         spaceBetween: 30
+    //       },
+    //       // when window width is >= 640px
+    //       640: {
+    //         slidesPerView: 4,
+    //         spaceBetween: 40
+    //       }
+    //     }
+    //   });
+          
+    // const swiper = new Swiper('.swiper', {
+    //     // Default parameters
+    //     slidesPerView: 3,
+    //     spaceBetween:"auto",
+    //     // Responsive breakpoints
+    //     breakpoints: {
+    //       // when window width is >= 320px
+    //       320: {
+    //         slidesPerView: 2,
+    //         spaceBetween: 20
+    //       },
+    //       // when window width is >= 480px
+    //       480: {
+    //         slidesPerView: 3,
+    //         spaceBetween: 30
+    //       },
+    //       // when window width is >= 640px
+    //       640: {
+    //         slidesPerView: 4,
+    //         spaceBetween: 40
+    //       }
+    //     }
+    //   });
+
+// Now you can use all slider methods like
 
      $(".hidden-search-btn").click(function(){
         $(".hidden-search-pop-up").toggle(500);

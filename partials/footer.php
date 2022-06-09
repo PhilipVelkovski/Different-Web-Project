@@ -126,22 +126,25 @@
         <div class="footer-third-row" style="margin-top: 50px;">
             <div class="container">
                 <div class="row">
-                    <div class="col-mg-12">
+                    <div class="col-md-12 col-sm-12">
                        
                         <div class="footer-last-links">
-                            <p> About </p>
-                            <p>Contact</p>
-                            <p>Privacy Policy</p>
-                            <p>Term & Conditions</p>
-                            <p>Refund & Return Policy</p>
+                           <ul>
+                               <li>About</li>
+                               <li>Contact</li>
+                               <li>Privacy Policy</li>
+                               <li>Term & Conditions</li>
+                               <li>Refund & Return Policy</li>
+                           </ul>
                         </div>
                         
                         </br>
-                        <div class="footer-copyright">
+                        
+                    </div>
+                    <div class="footer-copyright">
                             <p><i class="bi bi-heart-pulse"></i> Copyright 2020 <b> Gambolthemes</b> . All rights
                                 reserved</p>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>

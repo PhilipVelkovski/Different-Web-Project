@@ -64,7 +64,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class="quantity-item">
                     <input type="button" id="lower" value="-">
-                        <input type="text" id="quantity" value="1">
+                        <input type="text" id="quantity-grid" value="1">
                         <input type="button" id="add-quan" value="+">
 
                     </div>
@@ -95,7 +95,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class="quantity-item">
                     <input type="button" id="lower" value="-">
-                        <input type="text" id="quantity" value="1">
+                        <input type="text" id="quantity-grid" value="1">
                         <input type="button" id="add-quan" value="+">
 
                     </div>
@@ -126,7 +126,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class=" quantity-item">
                     <input type="button" id="lower" value="-">
-                        <input type="text" id="quantity" value="1">
+                        <input type="text" id="quantity-grid" value="1">
                         <input type="button" id="add-quan" value="+">
 
                     </div>
@@ -157,7 +157,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class="quantity-item">
                     <input type="button" id="lower" value="-">
-                        <input type="text" id="quantity" value="1">
+                        <input type="text" id="quantity-grid" value="1">
                         <input type="button" id="add-quan" value="+">
 
                     </div>
@@ -195,7 +195,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class="quantity-item">
                     <input type="button" id="lower" value="-">
-                        <input type="text" id="quantity" value="1">
+                        <input type="text" id="quantity-grid" value="1">
                         <input type="button" id="add-quan" value="+">
 
                     </div>
@@ -226,7 +226,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class=" quantity-item">
                     <input type="button" id="lower" value="-">
-                        <input type="text" id="quantity" value="1">
+                        <input type="text" id="quantity-grid" value="1">
                         <input type="button" id="add-quan" value="+">
 
                     </div>
@@ -257,7 +257,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class=" quantity-item">
                     <input type="button" id="lower" value="-">
-                        <input type="text" id="quantity" value="1">
+                        <input type="text" id="quantity-grid" value="1">
                         <input type="button" id="add-quan" value="+">
 
                     </div>
@@ -288,7 +288,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class=" quantity-item">
                     <input type="button" id="lower" value="-">
-                        <input type="text" id="quantity" value="1">
+                        <input type="text" id="quantity-grid" value="1">
                         <input type="button" id="add-quan" value="+">
 
                     </div>
@@ -326,7 +326,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class=" quantity-item">
                     <input type="button" id="lower" value="-">
-                        <input type="text" id="quantity" value="1">
+                        <input type="text" id="quantity-grid" value="1">
                         <input type="button" id="add-quan" value="+">
 
                     </div>
@@ -357,7 +357,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class=" quantity-item">
                     <input type="button" id="lower" value="-">
-                        <input type="text" id="quantity" value="1">
+                        <input type="text" id="quantity-grid" value="1">
                         <input type="button" id="add-quan" value="+">
 
                     </div>
@@ -388,7 +388,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class=" quantity-item" id="counter">
                     <input type="button" class="lower" id="lower" value="-">
-                        <input type="text" class="quantity" id="quantity" value="1">
+                        <input type="text" class="quantity" id="quantity-grid" value="1">
                         <input type="button" class="add-quan" id="add-quan" value="+">
 
                     </div>
@@ -419,7 +419,7 @@ include 'partials/header.php';
                 <div class="place-order">
                     <div class=" quantity-item">
                     <input type="button" class="lower" id="lower" value="-">
-                        <input type="text" class="quantity" id="quantity" value="1">
+                        <input type="text" class="quantity" id="quantity-grid" value="1">
                         <input type="button" class="add-quan" id="add-quan" value="+">
                     </div>
                     <div class="add-to-cart"><i class="bi bi-cart"></i></div>
