@@ -98,14 +98,14 @@
                         <ul class="toggle-user-list">
 
                             <li style="border-bottom: 1px solid rgb(177, 177, 177);"> <button onclick="lights()">night Mode</button></li>
-                            <li> <i class="bi bi-border-all"></i> Dubai</li>
-                            <li><i class="bi bi-box-seam"></i> SKopje</li>
-                            <li><i class="bi bi-heart"></i> Makedonia</li>
-                            <li><i class="bi bi-cash-stack"></i> Kosovo</li>
-                            <li><i class="bi bi-geo-alt loc-logo"></i>Dubai</li>
-                            <li><i class="bi bi-gift"></i> SKopje</li>
-                            <li><i class="bi bi-info-circle"></i></i> Makedonia</li>
-                            <li><i class="bi bi-lock"></i> Kosovo</li>
+                            <li> <i class="bi bi-border-all"></i>  <a href="/account.php"> Dashboard</a></li>
+                            <li><i class="bi bi-box-seam"></i><a href="/myorders.php"> My Orders</a></li>
+                            <li><i class="bi bi-heart"></i><a href="/wishlist.php"> My wishlist</a></li>
+                            <li><i class="bi bi-cash-stack"></i><a href="/wallet.php"> My Wallet</a></li>
+                            <li><i class="bi bi-geo-alt loc-logo"></i><a href="/myaddress.php"> My Address</a></li>
+                            <li><i class="bi bi-gift"></i><a href="/offers.php"> Offers</a></li>
+                            <li><i class="bi bi-info-circle"></i><a href="/fag.php"> Faq</a></li>
+                            <li><i class="bi bi-lock"></i><a href="/singin.php"> Logout</a></li>
                         </ul>
 
                     </div>  
@@ -176,10 +176,10 @@
                     </li>
                         <li class="blog-list">Blog <i class="bi bi-chevron-down"></i>
                         <div class="togle-blog-list">
-                        <ul>
-                            <li> Our Blog </li>
-                            <li>Blog Details</li>
-                        </ul>
+                            <ul>
+                               <li><a href="/contact.php">Our Blog</a></li>
+                               <li><a href="/contact.php">Blog Detail View</a></li>
+                           </ul>
                         </div>
                        
                         </li>
@@ -297,32 +297,31 @@
  <!--Hidden Mobile Links-->
     <div class="pop-up-list">
         <div class="pop-up-backgro">
-            <ul style="list-style-type: none;" id="hidden-pages-list">
+            <ul style="list-style-type: none; padding:0;" id="hidden-pages-list">
                 <li> <a href="#">Home</a></li>
                 <li> <a href="#">Home</a></li>
                 <li> <a href="#">Home</a></li>
-                <li><a href="#" class="list-pages-hidden">Pages<i class="bi bi-chevron-down"></i>
-                      
+                <li><a href="#" class="list-pages-hidden">Pages<i class="bi bi-chevron-down"></i> 
                         <ul class="hidden-list-mobile">
-                            <li>Account</li>
-                            <li>Abaut Us</li>
-                            <li>Shop Grid</li>
-                            <li>Single Product View</li>
-                            <li>Checkout</li>
-                            <li>Product Request</li>
-                            <li>Order Placed</li>
-                            <li>Bill Slip</li>
-                            <li>Sing In</li>
-                            <li>Sing Up</li>
-                            <li>Forgot Password</li>
-                            <li>Contact Us</li>
+                        <li><a href="/account.php">Account</a></li>
+                            <li><a href="/aboutus.php">Abaut Us</a></li>
+                            <li><a href="/shopgrid.php">Shop Grid</a></li>
+                            <li><a href="#">Single Product View</a></li>
+                            <li><a href="/checkout.php">Checkout</a></li>
+                            <li><a href="/productrequest.php">Product Request</a></li>
+                            <li><a href="/order.php">Order Placed</a></li>
+                            <li><a href="/bill.php">Bill Slip</a></li>
+                            <li><a href="/singin.php">Sing In</a></li>
+                            <li><a href="/singup.php">Sing Up</a></li>
+                            <li><a href="/forgotpass.php">Forgot Password</a></li>
+                            <li><a href="/contact.php">Contact Us</a></li>
                         </ul>
                     
 
                     </a>
                 </li>
                 <li>
-                <a href="#" class="blog-list-mobile">Blog <i class="bi bi-chevron-down"></i>
+                <a href="#" class="blog-list-mobile"> Blog <i class="bi bi-chevron-down"></i>
                         <ul class="togle-blog-list-mobile">
                             <li>blos</li>
                             <li>sas</li>

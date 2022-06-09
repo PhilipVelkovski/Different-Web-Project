@@ -92,6 +92,7 @@ body {
     padding-top: 3px;
     
 }
+
 /***********************************/
 .cstm-head-right{
     padding: 0;
@@ -304,6 +305,10 @@ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
     height:auto;
     background-color: azure;
 }
+.toggle-user-list >li>a{
+    text-decoration: none;
+    color: #2b2f4c;
+}
 
 .toggle-user-list > li{
     list-style-type: none;
@@ -444,10 +449,6 @@ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
   background-color: #f0e68c;
   
 }
-.togle-blog-list a{
-    color: #3e3f5e;
-    display: block;
-}
 
 .pages-list{
     display: none;
@@ -458,7 +459,7 @@ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
     height: auto;
     list-style: none;
     text-align: initial;
-    background-color: azure;
+    background-color: white;
     top: 42px;
     width: 160px;
 
@@ -477,13 +478,24 @@ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
     list-style: none;
     top: 42px;
     width: 130px;
-    background-color: antiquewhite;
+    background-color:white;
     text-align: start;
     padding: 8px;
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 10%);
 }
 .togle-blog-list li{
-    padding: 11px;
+   width: 100%;
+
+}
+
+.togle-blog-list a{
+    color: #3e3f5e;
+    display: block;
+    width: 100%;
+}
+.togle-blog-list ul{
+    padding: 0;
+    width: 127px;
 }
 
 
@@ -872,14 +884,6 @@ margin: 35px 0;
    height: 100vh;
    list-style-type: none
 }
-.list-pages-hidden{
-    position: relative;
-}
-.hidden-list-mobile{
-    display: none;
-    text-decoration: none;
-    list-style-type:none ;
-}
 #hidden-pages-list a{
       text-decoration: none;
       color: #2b2f4c;
@@ -903,24 +907,32 @@ margin: 35px 0;
     background-color: azure;
     /* top: 42px; */
     left: -24px;
+}
 
-    
+.list-pages-hidden{
+    position: relative;
+}
+.hidden-list-mobile{
+    display: none;
+    padding: 0;
+    text-decoration: none;
+    list-style-type:none ;
 }
 .blog-list-mobile{
     position: relative;
+    
 }
 .togle-blog-list-mobile{
     position: absolute;
-    display: none;
     list-style: none;
     /* top: 42px; */
     display: none;
     left: -39px;
     width: 130px;
-    background-color: antiquewhite;
+    background-color: transparent;
     text-align: start;
     padding: 8px;
-    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 10%);
+    text-align: center;
 }
 .item-one{
     display: none;
@@ -1101,7 +1113,7 @@ margin: 35px 0;
 }
 .category-item-image img{
   width: 100%;
-
+ padding: 20px;
     
 }
 .category-item-text{
@@ -1110,8 +1122,10 @@ margin: 35px 0;
     display: inline-block;
 }
 .category-item-image{
+  
     padding: 10%;
     width: 100%;
+    text-align: center;
 }
 
 .top-featured-products h2{
@@ -1236,7 +1250,7 @@ margin: 35px 0;
 
 }
 #quantity{
-    width: 33px;
+    width: 50px;
     text-align: start;
     font-size: 17px;
     border: none;

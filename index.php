@@ -21,7 +21,7 @@ include 'partials/header.php';
                                 </div>
 
                             </div>
-                            <div class="shop-now-btn"><a href="#"><span>Shop now</span></a></div>
+                            <div class="shop-now-btn"><a href="/"><span>Shop now</span></a></div>
                         </div>
                         <div class="swiper-slide">
                             <div class="product-image-offers">

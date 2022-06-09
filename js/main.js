@@ -187,6 +187,7 @@ $(document).ready(function(){
         $(".pop-up-list").animate({
             width: "toggle"
        });
+       
         // if((".pop-up-list").is(":visible")){
         //     $(".footer").hide(100);
         // } else {
@@ -205,19 +206,18 @@ $(document).ready(function(){
         if($(".hidden-list-mobile").is(":visible")){
             $(".hidden-list-mobile").hide();
         }
-
         $(".togle-blog-list-mobile").slideToggle(200);
     });
 
     
 
-    $(".blog-list-mobile").click(function(){
-        if($(".hidden-list").is(":visible")){
-            $(".hidden-list").hide();
-        }
+    // $(".blog-list-mobile").click(function(){
+    //     if($(".hidden-list").is(":visible")){
+    //         $(".hidden-list").hide();
+    //     }
 
-        $(".togle-blog-list-mobile").slideToggle(200);
-    });
+    //     $(".togle-blog-list-mobile").slideToggle(200);
+    // });
 
    $(".fillter-btn").click(function(){
        $(".header").css({"position":"inherit"});
