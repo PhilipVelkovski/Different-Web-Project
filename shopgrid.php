@@ -51,7 +51,7 @@ include 'partials/header.php';
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>
@@ -82,7 +82,7 @@ include 'partials/header.php';
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>
@@ -113,7 +113,7 @@ include 'partials/header.php';
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>
@@ -144,7 +144,7 @@ include 'partials/header.php';
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>
@@ -177,12 +177,12 @@ include 'partials/header.php';
             <div class="product">
                 <div class="product-image">
                     <a href="#">
-                        <img src="/Images/pick-one.jpg" alt="Карфиол">
+                        <img src="/Images/pick-seven.jpg" alt="Карфиол">
                     </a>
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>
@@ -213,7 +213,7 @@ include 'partials/header.php';
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>
@@ -244,7 +244,7 @@ include 'partials/header.php';
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>
@@ -275,7 +275,7 @@ include 'partials/header.php';
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>
@@ -308,12 +308,12 @@ include 'partials/header.php';
             <div class="product">
                 <div class="product-image">
                     <a href="#">
-                        <img src="/Images/pick-one.jpg" alt="Карфиол">
+                        <img src="/Images/pick-nine.jpg" alt="Карфиол">
                     </a>
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>
@@ -339,12 +339,12 @@ include 'partials/header.php';
             <div class="product">
                 <div class="product-image">
                     <a href="#">
-                        <img src="/Images/pick-two.jpg" alt="eggs">
+                        <img src="/Images/pick-six.jpg" alt="eggs">
                     </a>
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>
@@ -370,12 +370,12 @@ include 'partials/header.php';
             <div class="product">
                 <div class="product-image">
                     <a href="#">
-                        <img src="/Images/pick-three.jpg" alt="eggs">
+                        <img src="/Images/pick-four.jpg" alt="eggs">
                     </a>
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>
@@ -401,12 +401,12 @@ include 'partials/header.php';
             <div class="product">
                 <div class="product-image">
                     <a href="#">
-                        <img src="/Images/pick-four.jpg" alt="eggs">
+                        <img src="/Images/pick-three.jpg" alt="eggs">
                     </a>
                 </div>
                 <div class="product-text">
                     <div class="product-avalibility">Available (in stock)</div>
-                    <div class="product-title">Јајца</div>
+                    <div class="product-title">Product Title Here</div>
                     <div class="product-price">
                         <span class="new-price">15$</span>
                         <span class="old-price">20$</span>

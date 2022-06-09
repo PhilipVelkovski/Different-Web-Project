@@ -1,37 +1,26 @@
-
 /*location dropdown */
-
 //   $(".toggle-user-list").hide();
-  
 //   $(".toggle-user-list-mobile").hide();
 //   $(".toggle-loc-list-mobile").hide();
 // $(".toggle-loc-list").hide();
-
-
-
 // $(".category-pop-up").hide();
-
-
 // $(".togle-blog-list-mobile").hide();
+// function add() {
+//   var subtract = document.getElementById("#quantity").innerHTML;
+//   const add = document.getElementById("#add-quan");
+//   const sub = document.getElementById("#lower");
+//     var plus = innerHTML + 1;
+//    return subtract.innerHTML = plus;
+// };
+// function sub(){
+    
+//   var subtract = document.getElementById("#quantity").innerHTML;
 
+// }
 $(document).ready(function(){
-     //SWIPER
-    //  var swiper = new Swiper(".mySwiper", {
-    //     spaceBetween: 30,
-    //     slidesPerView: "auto",
-    //     freeMode: true,
-    //     watchSlidesProgress: true,
-    //   });
-    //   var swiper2 = new Swiper(".mySwiper2", {
-    //     spaceBetween: 10,
-    //     navigation: {
-    //       nextEl: ".swiper-button-next",
-    //       prevEl: ".swiper-button-prev",
-    //     },
-    //     thumbs: {
-    //       swiper: swiper,
-    //     },
-    //   });
+
+
+
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
         spaceBetween: 30,
@@ -67,7 +56,39 @@ $(document).ready(function(){
                   }
                 },
       });
-      var swiper = new Swiper(".swiper-two", {
+      var swiper3 = new Swiper(".swiper-three", {
+        slidesPerView: "auto",
+        spaceBetween: 20,
+        loop: true,
+        rewind:true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        
+        breakpoints: {
+                  // when window width is >= 320px
+                  320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                  },
+                  // when window width is >= 480px
+                  480: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                  },
+                  // when window width is >= 640px
+                  640: {
+                    slidesPerView: 2,
+                    spaceBetween: 40
+                  },
+                  890:{
+                    slidesPerView: 5,
+                    spaceBetween: 40
+                  }
+                },
+      });
+      var swiper2 = new Swiper(".swiper-two", {
         slidesPerView: "auto",
         spaceBetween: 20,
         loop: true,
@@ -97,53 +118,6 @@ $(document).ready(function(){
                   }
                 },
       });
-    //   const swipers = new Swiper('.mySwiper', {
-    //     // Default parameters
-    //     slidesPerView: 2,
-    //     spaceBetween: 50,
-    //     // Responsive breakpoints
-    //     breakpoints: {
-    //       // when window width is >= 320px
-    //       320: {
-    //         slidesPerView: 2,
-    //         spaceBetween: 20
-    //       },
-    //       // when window width is >= 480px
-    //       480: {
-    //         slidesPerView: 3,
-    //         spaceBetween: 30
-    //       },
-    //       // when window width is >= 640px
-    //       640: {
-    //         slidesPerView: 4,
-    //         spaceBetween: 40
-    //       }
-    //     }
-    //   });
-          
-    // const swiper = new Swiper('.swiper', {
-    //     // Default parameters
-    //     slidesPerView: 3,
-    //     spaceBetween:"auto",
-    //     // Responsive breakpoints
-    //     breakpoints: {
-    //       // when window width is >= 320px
-    //       320: {
-    //         slidesPerView: 2,
-    //         spaceBetween: 20
-    //       },
-    //       // when window width is >= 480px
-    //       480: {
-    //         slidesPerView: 3,
-    //         spaceBetween: 30
-    //       },
-    //       // when window width is >= 640px
-    //       640: {
-    //         slidesPerView: 4,
-    //         spaceBetween: 40
-    //       }
-    //     }
-    //   });
 
 // Now you can use all slider methods like
 
@@ -281,6 +255,9 @@ $(document).ready(function(){
     $(".header").css({"position":"fixed"});
 });
 });
+
+
+
 // const add = document.querySelector("#lower");
 // add.addEventListener('click',(event)=>{
 //    console.log("PROBAJ VAKA");

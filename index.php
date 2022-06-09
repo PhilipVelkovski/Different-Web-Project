@@ -12,52 +12,52 @@ include 'partials/header.php';
                 <div class="swiper mySwiper cstm-swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                        <div class="product-image-offers">
-                                    <img src="/Images/offer-1.jpg" alt="eggs">
-                                    <div class="offers">
-                                        <p>6% off</p>
-                                        <div class="offer-title">Buy More save more</div>
-                                        <span>Beverages</span>
-                                    </div>
-
+                            <div class="product-image-offers">
+                                <img src="/Images/offer-1.jpg" alt="eggs">
+                                <div class="offers">
+                                    <p>6% off</p>
+                                    <div class="offer-title">Buy More save more</div>
+                                    <span>Beverages</span>
                                 </div>
-                                <div class="shop-now-btn"><a href="#"><span>Shop now</span></a></div>
+
+                            </div>
+                            <div class="shop-now-btn"><a href="#"><span>Shop now</span></a></div>
                         </div>
                         <div class="swiper-slide">
-                        <div class="product-image-offers">
-                                    <img src="/Images/offer-2.jpg" alt="eggs">
-                                    <div class="offers">
-                                        <p>6% off</p>
-                                        <div class="offer-title">Buy More save more</div>
-                                        <span>Beverages</span>
-                                    </div>
-
+                            <div class="product-image-offers">
+                                <img src="/Images/offer-2.jpg" alt="eggs">
+                                <div class="offers">
+                                    <p>6% off</p>
+                                    <div class="offer-title">Buy More save more</div>
+                                    <span>Beverages</span>
                                 </div>
-                                <div class="shop-now-btn"><a href="#"><span>Shop now</span></a></div>
+
+                            </div>
+                            <div class="shop-now-btn"><a href="#"><span>Shop now</span></a></div>
                         </div>
                         <div class="swiper-slide">
-                        <div class="product-image-offers">
-                                    <img src="/Images/offer-3.jpg" alt="eggs">
-                                    <div class="offers">
-                                        <p>6% off</p>
-                                        <div class="offer-title">Buy More save more</div>
-                                        <span>Beverages</span>
-                                    </div>
-
+                            <div class="product-image-offers">
+                                <img src="/Images/offer-3.jpg" alt="eggs">
+                                <div class="offers">
+                                    <p>6% off</p>
+                                    <div class="offer-title">Buy More save more</div>
+                                    <span>Beverages</span>
                                 </div>
-                                <div class="shop-now-btn"><a href="#"><span>Shop now</span></a></div>
+
+                            </div>
+                            <div class="shop-now-btn"><a href="#"><span>Shop now</span></a></div>
                         </div>
                         <div class="swiper-slide">
-                        <div class="product-image-offers">
-                                    <img src="/Images/offer-4.jpg" alt="eggs">
-                                    <div class="offers">
-                                        <p>6% off</p>
-                                        <div class="offer-title">Buy More save more</div>
-                                        <span>Beverages</span>
-                                    </div>
-
+                            <div class="product-image-offers">
+                                <img src="/Images/offer-4.jpg" alt="eggs">
+                                <div class="offers">
+                                    <p>6% off</p>
+                                    <div class="offer-title">Buy More save more</div>
+                                    <span>Beverages</span>
                                 </div>
-                                <div class="shop-now-btn"><a href="#"><span>Shop now</span></a></div>
+
+                            </div>
+                            <div class="shop-now-btn"><a href="#"><span>Shop now</span></a></div>
                         </div>
                         <div class="swiper-slide">
                             <div class="product-offer">
@@ -196,129 +196,253 @@ include 'partials/header.php';
         <p>For You</p>
         <h2>Top Featured Products</h2>
         <div class="products-wraper row">
-            <div class=" col-md-3 col-xs-12">
-                <div class="product">
-                    <div class="product-image">
-                        <a href="#">
-                            <img src="/Images/pick-one.jpg" alt="Карфиол">
-                        </a>
-                    </div>
-                    <div class="product-text">
-                        <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
-                        <div class="product-price">
-                            <span class="new-price">15$</span>
-                            <span class="old-price">20$</span>
-                        </div>
-                    </div>
-                    <div class="product-floating-items">
-                        <span class="discount-ammount">6% off</span>
-                        <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
-                    </div>
-                    <div class="place-order">
-                        <div class="row quantity-item">
-                            <input type="button" id="lower" value="-">
-                            <input type="number" id="quantity" value="1">
-                            <input type="button" id="add-quan" value="+">
+            <div class="col-md-12">
+                <div class="swiper mySwiper swiper-three">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-five.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
 
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-four.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-three.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-nine.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-six.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-seven.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-two.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-one.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-
-            </div>
-            <div class=" col-md-3 col-xs-12">
-                <div class="product">
-                    <div class="product-image">
-                        <a href="#">
-                            <img src="/Images/pick-two.jpg" alt="eggs">
-                        </a>
-                    </div>
-                    <div class="product-text">
-                        <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
-                        <div class="product-price">
-                            <span class="new-price">15$</span>
-                            <span class="old-price">20$</span>
-                        </div>
-                    </div>
-                    <div class="product-floating-items">
-                        <span class="discount-ammount">6% off</span>
-                        <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
-                    </div>
-                    <div class="place-order">
-                        <div class="row quantity-item">
-                            <input type="button" id="lower" value="-">
-                            <input type="number" id="quantity" value="1">
-                            <input type="button" id="add-quan" value="+">
-
-                        </div>
-                        <div class="add-to-cart"><i class="bi bi-cart"></i></div>
-                    </div>
-                </div>
-
-            </div>
-            <div class=" col-md-3 col-xs-12">
-                <div class="product">
-                    <div class="product-image">
-                        <a href="#">
-                            <img src="/Images/pick-three.jpg" alt="eggs">
-                        </a>
-                    </div>
-                    <div class="product-text">
-                        <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
-                        <div class="product-price">
-                            <span class="new-price">15$</span>
-                            <span class="old-price">20$</span>
-                        </div>
-                    </div>
-                    <div class="product-floating-items">
-                        <span class="discount-ammount">6% off</span>
-                        <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
-                    </div>
-                    <div class="place-order">
-                        <div class="row quantity-item">
-                            <input type="button" id="lower" value="-">
-                            <input type="number" id="quantity" value="1">
-                            <input type="button" id="add-quan" value="+">
-
-                        </div>
-                        <div class="add-to-cart"><i class="bi bi-cart"></i></div>
-                    </div>
-                </div>
-
-            </div>
-            <div class=" col-md-3 col-xs-12">
-                <div class="product">
-                    <div class="product-image">
-                        <a href="#">
-                            <img src="/Images/pick-four.jpg" alt="eggs">
-                        </a>
-                    </div>
-                    <div class="product-text">
-                        <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
-                        <div class="product-price">
-                            <span class="new-price">15$</span>
-                            <span class="old-price">20$</span>
-                        </div>
-                    </div>
-                    <div class="product-floating-items">
-                        <span class="discount-ammount">6% off</span>
-                        <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
-                    </div>
-                    <div class="place-order">
-                        <div class="row quantity-item">
-                            <input type="button" id="lower" value="-">
-                            <input type="number" id="quantity" value="1">
-                            <input type="button" id="add-quan" value="+">
-
-                        </div>
-                        <div class="add-to-cart"><i class="bi bi-cart"></i></div>
-                    </div>
-                </div>
-
             </div>
 
         </div>
@@ -363,83 +487,269 @@ include 'partials/header.php';
         </div>
 
     </section>
-
+<!--SECTION 2-->
     <section class="container top-featured-products mt-5">
         <p>For You</p>
         <h2>Top Featured Products</h2>
         <div class="products-wraper row">
-            <div class=" col-md-3 col-xs-12">
-                <div class="product">
-                    <div class="product-image">
-                        <a href="#">
-                            <img src="/Images/pick-one.jpg" alt="Карфиол">
-                        </a>
-                    </div>
-                    <div class="product-text">
-                        <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
-                        <div class="product-price">
-                            <span class="new-price">15$</span>
-                            <span class="old-price">20$</span>
-                        </div>
-                    </div>
-                    <div class="product-floating-items">
-                        <span class="discount-ammount">6% off</span>
-                        <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
-                    </div>
-                    <div class="place-order">
-                        <div class="row quantity-item">
-                            <input type="button" id="lower" value="-">
-                            <input type="number" id="quantity" value="1">
-                            <input type="button" id="add-quan" value="+">
+            <div class=" col-md-12">
+            <div class="col-md-12">
+                <div class="swiper mySwiper swiper-four">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-five.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
 
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-four.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-three.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-nine.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-six.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-seven.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-two.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-one.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-
             </div>
-            <div class=" col-md-3 col-xs-12">
-                <div class="product">
+                <!-- <div class="product">
                     <div class="product-image">
                         <a href="#">
-                            <img src="/Images/pick-two.jpg" alt="eggs">
+                            <img src="/Images/pick-five.jpg" alt="Карфиол">
                         </a>
                     </div>
                     <div class="product-text">
                         <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
-                        <div class="product-price">
-                            <span class="new-price">15$</span>
-                            <span class="old-price">20$</span>
-                        </div>
-                    </div>
-                    <div class="product-floating-items">
-                        <span class="discount-ammount">6% off</span>
-                        <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
-                    </div>
-                    <div class="place-order">
-                        <div class="row quantity-item">
-                            <input type="button" id="lower" value="-">
-                            <input type="number" id="quantity" value="1">
-                            <input type="button" id="add-quan" value="+">
-
-                        </div>
-                        <div class="add-to-cart"><i class="bi bi-cart"></i></div>
-                    </div>
-                </div>
-
-            </div>
-            <div class=" col-md-3 col-xs-12">
-                <div class="product">
-                    <div class="product-image">
-                        <a href="#">
-                            <img src="/Images/pick-three.jpg" alt="eggs">
-                        </a>
-                    </div>
-                    <div class="product-text">
-                        <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
+                        <div class="product-title">Product Title Here</div>
                         <div class="product-price">
                             <span class="new-price">15$</span>
                             <span class="old-price">20$</span>
@@ -470,77 +780,7 @@ include 'partials/header.php';
                     </div>
                     <div class="product-text">
                         <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
-                        <div class="product-price">
-                            <span class="new-price">15$</span>
-                            <span class="old-price">20$</span>
-                        </div>
-                    </div>
-                    <div class="product-floating-items">
-                        <span class="discount-ammount">6% off</span>
-                        <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
-                    </div>
-                    <div class="place-order">
-                        <div class="row quantity-item">
-                            <input type="button" id="lower" value="-">
-                            <input type="number" id="quantity" value="1">
-                            <input type="button" id="add-quan" value="+">
-
-                        </div>
-                        <div class="add-to-cart"><i class="bi bi-cart"></i></div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <section class="container top-featured-products mt-5">
-        <p>For You</p>
-        <h2>Top Featured Products</h2>
-        <div class="products-wraper row">
-            <div class=" col-md-3 col-xs-12">
-                <div class="product">
-                    <div class="product-image">
-                        <a href="#">
-                            <img src="/Images/pick-one.jpg" alt="Карфиол">
-                        </a>
-                    </div>
-                    <div class="product-text">
-                        <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
-                        <div class="product-price">
-                            <span class="new-price">15$</span>
-                            <span class="old-price">20$</span>
-                        </div>
-                    </div>
-                    <div class="product-floating-items">
-                        <span class="discount-ammount">6% off</span>
-                        <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
-                    </div>
-                    <div class="place-order">
-                        <div class="row quantity-item">
-                            <input type="button" id="lower" value="-">
-                            <input type="number" id="quantity" value="1">
-                            <input type="button" id="add-quan" value="+">
-
-                        </div>
-                        <div class="add-to-cart"><i class="bi bi-cart"></i></div>
-                    </div>
-                </div>
-
-            </div>
-            <div class=" col-md-3 col-xs-12">
-                <div class="product">
-                    <div class="product-image">
-                        <a href="#">
-                            <img src="/Images/pick-two.jpg" alt="eggs">
-                        </a>
-                    </div>
-                    <div class="product-text">
-                        <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
+                        <div class="product-title">Product Title Here</div>
                         <div class="product-price">
                             <span class="new-price">15$</span>
                             <span class="old-price">20$</span>
@@ -571,7 +811,7 @@ include 'partials/header.php';
                     </div>
                     <div class="product-text">
                         <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
+                        <div class="product-title">Product Title Here</div>
                         <div class="product-price">
                             <span class="new-price">15$</span>
                             <span class="old-price">20$</span>
@@ -597,12 +837,12 @@ include 'partials/header.php';
                 <div class="product">
                     <div class="product-image">
                         <a href="#">
-                            <img src="/Images/pick-four.jpg" alt="eggs">
+                            <img src="/Images/pick-two.jpg" alt="eggs">
                         </a>
                     </div>
                     <div class="product-text">
                         <div class="product-avalibility">Available (in stock)</div>
-                        <div class="product-title">Јајца</div>
+                        <div class="product-title">Product Title Here</div>
                         <div class="product-price">
                             <span class="new-price">15$</span>
                             <span class="old-price">20$</span>
@@ -623,10 +863,269 @@ include 'partials/header.php';
                     </div>
                 </div>
 
+            </div> -->
+
+        </div>
+    </section>
+    <!--SECTION 3-->
+    <section class="container top-featured-products mt-5">
+        <p>For You</p>
+        <h2>Top Featured Products</h2>
+        <div class="products-wraper row">
+            <div class=" col-md-12">
+            <div class="col-md-12">
+                <div class="swiper mySwiper swiper-four">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-five.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <button type="button" id="lower" onclick="sub()">-</button>
+                                        <p id="quantity">0</p>
+                                        <button type="button" id="add-quan" onclick="add()">+</button>
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-four.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-three.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-nine.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-six.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-seven.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-two.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#">
+                                        <img src="/Images/pick-one.jpg" alt="Карфиол">
+                                    </a>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-avalibility">Available (in stock)</div>
+                                    <div class="product-title">Product Title Here</div>
+                                    <div class="product-price">
+                                        <span class="new-price">15$</span>
+                                        <span class="old-price">20$</span>
+                                    </div>
+                                </div>
+                                <div class="product-floating-items">
+                                    <span class="discount-ammount">6% off</span>
+                                    <span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
+                                </div>
+                                <div class="place-order">
+                                    <div class="row quantity-item">
+                                        <input type="button" id="lower" value="-">
+                                        <input type="number" id="quantity" value="1">
+                                        <input type="button" id="add-quan" value="+">
+
+                                    </div>
+                                    <div class="add-to-cart"><i class="bi bi-cart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
             </div>
 
         </div>
     </section>
+
+ 
 </div>
 
 
