@@ -184,23 +184,24 @@ $page_title = "Gambo - Contact Us";
                 </div>
                 <div class="contact-form">
                   <!-- FORM subscribe.php gi hendla podatoccite so metod navedet-->
-                  
-                        <form action="subscription.php" method="POST">
+                                        <!--???-->
+                        <form action="javascript:void(0)" method="POST">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Email address*</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" name="cemail" placeholder="Enter email" aria-describedby="emailHelp">
+                                <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Enter email" aria-describedby="emailHelp">
                                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
                                 </div>
                             </div>
                             <div class="mb-3">
                             <label for="formGroupExampleInput2">Subject*</label>
-                             <input type="text" class="form-control" id="formGroupExampleInput2" name="cname" placeholder="Enter Subject">
+                             <input type="text" class="form-control" id="formGroupExampleInput2" name="text" placeholder="Enter Subject">
                             </div>
                             <div class="mb-3">
                             <label for="exampleFormControlTextarea1">Message*</label>
-                             <textarea class="form-control" id="exampleFormControlTextarea1" name="cmsg" rows="3"></textarea>
+                             <textarea class="form-control" id="exampleFormControlTextarea1" name="msg" rows="3"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary" onclick="subscribe();" style=" border: 1px solid #f55d2c;background: #f55d2c;">Submit Request</button>
+                            <div class="contact-respons"></div>
                         </form>
                 </div>
             </div>

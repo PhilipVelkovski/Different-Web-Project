@@ -31,7 +31,7 @@
           </div> 
           <div class="sing-in-form-wrapper">
               <div class="sing-in-form">
-                <form action="">
+                <form  method="POST">
                   <div class="form-title">
                     <h3>Sing In</h3>
                   </div>
@@ -45,7 +45,7 @@
                       minlength="8" required>
                       <i class="bi bi-file-lock"></i>
                   </div> <br>
-                  <button type="submit" id="sing_in_btn">Sing In Now</button>
+                  <button type="submit" onclick="login();" id="sing_in_btn">Sing In Now</button>
                   <br>
                   
                   

@@ -93,7 +93,7 @@
                     <div class="user-anchor">
                         <a href="#" class="user-account">
                             <img src="/Images/profile-img.jpg" alt="profile" id="profile-img">
-                            Jhon DOe <i class="bi bi-chevron-compact-down"></i>
+                           <div id="usernamevalue"></div> <i class="bi bi-chevron-compact-down"></i>
                         </a> <br>
                         <ul class="toggle-user-list">
 

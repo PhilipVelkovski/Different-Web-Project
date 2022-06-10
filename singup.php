@@ -34,7 +34,7 @@
               <div class="form-title">
                     <h3>Sing Up</h3>
                   </div>
-                <form action="">
+                <form action="javascript:void(0)" method="POST">
                 <div class="enter-name">
                   <input type="text" id="sing_in_name" name="fname" placeholder=" Full name"  required>
                   <i class="bi bi-person-square"></i>
@@ -44,8 +44,7 @@
                   <i class="bi bi-envelope"></i>
                   </div> <br>
                   <div class="enter-phone">
-                  <input type="tel" id="sing_in_phone" name="phone" placeholder="Enter phone number" 
-                  pattern="[0-9]{3}-[0]{1}-[0-9]{2}-[0-9]{3}-[0-9]{3}" required>
+                  <input type="tel" id="sing_in_phone" name="phone" placeholder="Enter phone number">
                   <i class="bi bi-phone"></i>
                   </div> <br>
                   <div class="enter-phone">
@@ -53,9 +52,11 @@
                   pattern="[0-9]{8}" required>
                   <i class="bi bi-lock"></i>
                   </div> <br>
-                  <button type="submit" id="sing_in_btn">Sing Up Now</button>
+                  <button type="button" onclick="login();" name="button" id="sing_in_btn">Sing Up Now</button>
                   <br>
-                 
+                  
+                <div class="respones"></div> <br>
+                  
                   
                 </form>
               </div>
@@ -95,4 +96,5 @@
   </div>
     
 </body>
+<script src="/js/main.js"></script>
 </html>

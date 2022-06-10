@@ -1,4 +1,50 @@
+function login(){
+    $.ajax({ 
+    
+    url:"/login-request.php",
+    data: "Name=" + $("#sing_in_name").val() + "&email=" +$("#sing_in_email").val(),
+    type: "POST", // prakame so post // SO ajax kontaktiraat skriptatat za obrabotka na podatoci so userot 
+    success: function(data){
+      $(".respones").html(data);
+       location.replace("index.php")
+    },
+    error: function(){
+      $(".response").html("An error has acoured");
+      console.log("PROblem");
+    }
+   
+});
+const imet =  $("#sing_in_name").val();
+var jhon =  document.getElementById("#usernamevalue").value();
+jhon = document.getElementById("#sing_in_name").value();
+
+// $("#usernamevalue").val = imet;
+
+ alert(jhon);
+};
+
+function subscribe(){
+     
+  $.ajax({ 
+          //Kade se isprakaat podatocite!; istoto vo .NET
+          url:"/subscription.php",
+          data: "text=" + $("#formGroupExampleInput2").val() + "&email=" +$("#exampleInputEmail1").val(),
+          type: "POST", // prakame so post // SO ajax kontaktiraat skriptatat za obrabotka na podatoci so userot 
+          success: function(data){
+            $(".contact-respons").html(data);
+          },
+          error: function(){
+            $(".contact-respons").html("An error has acoured");
+          }
+          
+      });
+};
+
+
 $(document).ready(function(){
+
+
+
 var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
         spaceBetween: 30,
