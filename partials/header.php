@@ -37,19 +37,19 @@
                     </div>
                     
                     <div class="locatin-wrapper">
-                        <a class="location-btn"><i class="bi bi-geo-alt location-logo"></i> Gurugam <i
+                        <a class="location-btn"><i class="bi bi-geo-alt location-logo"></i> Gurugram <i
                                 class="bi bi-chevron-compact-down"></i></a>
                         <br>
                         <ul class="toggle-loc-list">
-                            <li> <i class="bi bi-geo-alt location-logo"></i> Dubai</li>
-                            <li><i class="bi bi-geo-alt location-logo"></i> SKopje</li>
-                            <li><i class="bi bi-geo-alt location-logo"></i> Makedonia</li>
-                            <li><i class="bi bi-geo-alt location-logo"></i> Kosovo</li>
-                            <li> <i class="bi bi-geo-alt location-logo"></i> Dubai</li>
-                            <li><i class="bi bi-geo-alt location-logo"></i> SKopje</li>
-                            <li><i class="bi bi-geo-alt location-logo"></i> Makedonia</li>
-                            <li><i class="bi bi-geo-alt location-logo"></i> Kosovo</li>
-                            <li><i class="bi bi-geo-alt location-logo"></i> Kosovo</li>
+                            <li> <i class="bi bi-geo-alt location-logo"></i> Gurugram</li>
+                            <li><i class="bi bi-geo-alt location-logo"></i> Skopje</li>
+                            <li><i class="bi bi-geo-alt location-logo"></i> Mumbai</li>
+                            <li><i class="bi bi-geo-alt location-logo"></i> Kolkata</li>
+                            <li> <i class="bi bi-geo-alt location-logo"></i> Ludhiana</li>
+                            <li><i class="bi bi-geo-alt location-logo"></i> Hyderbad</li>
+                            <li><i class="bi bi-geo-alt location-logo"></i> New Delih</li>
+                            <li><i class="bi bi-geo-alt location-logo"></i> Bangaluru</li>
+                            <li><i class="bi bi-geo-alt location-logo"></i> Chandigraph</li>
 
                         </ul>
 
