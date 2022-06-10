@@ -1,27 +1,5 @@
-/*location dropdown */
-//   $(".toggle-user-list").hide();
-//   $(".toggle-user-list-mobile").hide();
-//   $(".toggle-loc-list-mobile").hide();
-// $(".toggle-loc-list").hide();
-// $(".category-pop-up").hide();
-// $(".togle-blog-list-mobile").hide();
-// function add() {
-//   var subtract = document.getElementById("#quantity").innerHTML;
-//   const add = document.getElementById("#add-quan");
-//   const sub = document.getElementById("#lower");
-//     var plus = innerHTML + 1;
-//    return subtract.innerHTML = plus;
-// };
-// function sub(){
-    
-//   var subtract = document.getElementById("#quantity").innerHTML;
-
-// }
 $(document).ready(function(){
-
-
-
-    var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
         spaceBetween: 30,
         loop: true,
