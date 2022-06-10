@@ -99,7 +99,7 @@
 
                             <li style="border-bottom: 1px solid rgb(177, 177, 177);"> <button onclick="lights()">night Mode</button></li>
                             <li> <i class="bi bi-border-all"></i>  <a href="/account.php"> Dashboard</a></li>
-                            <li><i class="bi bi-box-seam"></i><a href="/myorders.php"> My Orders</a></li>
+                            <li><i class="bi bi-box-seam"></i><a href="/order.php"> My Orders</a></li>
                             <li><i class="bi bi-heart"></i><a href="/wishlist.php"> My wishlist</a></li>
                             <li><i class="bi bi-cash-stack"></i><a href="/wallet.php"> My Wallet</a></li>
                             <li><i class="bi bi-geo-alt loc-logo"></i><a href="/myaddress.php"> My Address</a></li>
@@ -182,7 +182,7 @@
                         </div>
                        
                         </li>
-                        <li>Contact Us</li>
+                        <li><a href="/contact.php"> Contact Us</a></li>
                     </ul>
                 </div>
             </div>

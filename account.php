@@ -51,14 +51,14 @@ include 'partials/header.php';
                 <div class="col-lg-3 col-md-4">
                     <div class="left-tabs">
                         <div class="dash-links-left">
-                            <a href="#" style="background-color:#f55d2c; color:white;" class="user-links"> <i class="bi bi-border-all"></i>   Overview</a>
-                           <a href="#" class="user-links"><i class="bi bi-box"></i> My Orders</a>
-                           
-                           <a href="#" class="user-links"><i class="bi bi-gift"></i> My Rewards</a>
-                           <a href="#" class="user-links"><i class="bi bi-wallet"></i> My Wallet</a>
-                           <a href="#" class="user-links"><i class="bi bi-heart"></i> Shopping List</a>
-                           <a href="#" class="user-links"><i class="bi bi-geo-alt"></i> My Address</a>
-                           <a href="#" class="user-links"><i class="bi bi-box-arrow-right"></i> Logout</a>
+                            <a href="#"  style="background-color:#f55d2c; color:white;" class="user-links"><i class="bi bi-border-all"></i> Overview</a>
+                            <a href="#" class="user-links"><i class="bi bi-box"></i> My Orders</a>
+
+                            <a href="#" class="user-links"><i class="bi bi-gift"></i> My Rewards</a>
+                            <a href="/wallet.php" class="user-links" ><i class="bi bi-wallet"></i> My Wallet</a>
+                            <a href="/wishlist.php" class="user-links"><i class="bi bi-heart"></i> Shopping List</a>
+                            <a href="/myaddress.php" class="user-links"><i class="bi bi-geo-alt"></i> My Address</a>
+                            <a href="/singin.php" class="user-links"><i class="bi bi-box-arrow-right"></i> Logout</a>
                         </div>
                     </div>
                 </div>
@@ -67,19 +67,23 @@ include 'partials/header.php';
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="overviwe" style="height:40px;">
-                                    <i style="float: left; font-size:14px; float: left; font-size: 23px; margin-right: 14px;" class="bi bi-border-all"></i> <h4>  Overview</h4>
+                                    <i style="float: left; font-size:14px; float: left; font-size: 23px; margin-right: 14px;"
+                                        class="bi bi-border-all"></i>
+                                    <h4> Overview</h4>
                                 </div>
                                 <div class="text-welcome">
-                                     <h2>Hi! Jhon Doe</h2>
+                                    <h2>Hi! Jhon Doe</h2>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-12">
                                 <div class="ovr-one">
-                                    <div class="title-rwrd"> <h4>My Rewards</h4></div>
+                                    <div class="title-rwrd">
+                                        <h4>My Rewards</h4>
+                                    </div>
                                     <div class="rewards" style="padding:21px">
                                         <h2>6 Rewards</h2>
                                         <ul style="list-style:none;">
-                                            <li><a href="#" class="small-reward">Won $2</a>  </li>
+                                            <li><a href="#" class="small-reward">Won $2</a> </li>
                                             <li><a href="#" class="small-reward">Won $2</a></li>
                                             <li><a href="#" class="small-reward">Won $2</a></li>
                                             <li><a href="#" class="small-reward-one">+More</a></li>
@@ -89,8 +93,10 @@ include 'partials/header.php';
                                 <a href="#" id="links-rwrd">Rewards and details.. </a>
                             </div>
                             <div class="col-lg-6 col-md-12">
-                            <div class="ovr-one">
-                                    <div class="title-rwrd"> <h4>My Orders</h4></div>
+                                <div class="ovr-one">
+                                    <div class="title-rwrd">
+                                        <h4>My Orders</h4>
+                                    </div>
                                     <div class="rewards" style="padding:21px">
                                         <h2>2 Recently Purchases</h2>
                                         <ul style="list-style:none;">
@@ -103,21 +109,26 @@ include 'partials/header.php';
                                                     <p>$22</p>
                                                 </div>
                                             </li>
-                                           
+
                                         </ul>
                                     </div>
                                 </div>
                                 <a href="#" id="links-rwrd">All orders..</a>
                             </div>
                             <div class="col-lg-12 col-md-12">
-                            <div class="ovr-one">
-                                    <div class="title-rwrd"> <h4>My Wallet</h4></div>
-                                    <div class="rewards"id="this-one" style="padding:21px">
+                                <div class="ovr-one">
+                                    <div class="title-rwrd">
+                                        <h4>My Wallet</h4>
+                                    </div>
+                                    <div class="rewards" id="this-one" style="padding:21px">
                                         <h2>Credits $100</h2>
-                                        <ul  style="list-style:none; padding-top:10px;">
-                                            <li><a href="#" class="wallet-links"><i class="bi bi-credit-card-2-front"></i> Payment Methods</a>  </li>
-                                            <li><a href="#" class="wallet-links"><i class="bi bi-gift"></i> 3 Active offers</a></li>
-                                            <li><a href="#" class="wallet-links"><i class="bi bi-cash-coin"></i>Points Earning</a></li>
+                                        <ul style="list-style:none; padding-top:10px;">
+                                            <li><a href="#" class="wallet-links"><i
+                                                        class="bi bi-credit-card-2-front"></i> Payment Methods</a> </li>
+                                            <li><a href="#" class="wallet-links"><i class="bi bi-gift"></i> 3 Active
+                                                    offers</a></li>
+                                            <li><a href="#" class="wallet-links"><i class="bi bi-cash-coin"></i>Points
+                                                    Earning</a></li>
                                         </ul>
                                     </div>
                                 </div>
