@@ -104,10 +104,9 @@
                             <li><i class="bi bi-cash-stack"></i><a href="/wallet.php"> My Wallet</a></li>
                             <li><i class="bi bi-geo-alt loc-logo"></i><a href="/myaddress.php"> My Address</a></li>
                             <li><i class="bi bi-gift"></i><a href="/offers.php"> Offers</a></li>
-                            <li><i class="bi bi-info-circle"></i><a href="/fag.php"> Faq</a></li>
+                            <li><i class="bi bi-info-circle"></i><a href="/faq.php"> Faq</a></li>
                             <li><i class="bi bi-lock"></i><a href="/singin.php"> Logout</a></li>
                         </ul>
-
                     </div>  
                     <div class="user-anchor-mobile">
                         <a href="#" class="user-account-mobile">
@@ -162,7 +161,7 @@
                      <li><a href="/account.php">Account</a></li>
                             <li><a href="/aboutus.php">Abaut Us</a></li>
                             <li><a href="/shopgrid.php">Shop Grid</a></li>
-                            <li><a href="#">Single Product View</a></li>
+                            <li><a href="/singleproduct.php">Single Product View</a></li>
                             <li><a href="/checkout.php">Checkout</a></li>
                             <li><a href="/productrequest.php">Product Request</a></li>
                             <li><a href="/order.php">Order Placed</a></li>

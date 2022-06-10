@@ -51,7 +51,7 @@ include 'partials/header.php';
                 <div class="col-lg-3 col-md-4">
                     <div class="left-tabs">
                         <div class="dash-links-left">
-                            <a href="#" style="background-color:#f55d2c;" class="user-links"> <i class="bi bi-border-all"></i>   Overview</a>
+                            <a href="#" style="background-color:#f55d2c; color:white;" class="user-links"> <i class="bi bi-border-all"></i>   Overview</a>
                            <a href="#" class="user-links"><i class="bi bi-box"></i> My Orders</a>
                            
                            <a href="#" class="user-links"><i class="bi bi-gift"></i> My Rewards</a>

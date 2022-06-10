@@ -51,15 +51,14 @@ include 'partials/header.php';
                 <div class="col-lg-3 col-md-4">
                     <div class="left-tabs">
                         <div class="dash-links-left">
-                            <a href="#" class="user-links"> <i class="bi bi-border-all"></i> Overview</a>
+                        <a href="/account.php" class="user-links"> <i class="bi bi-border-all"></i> Overview</a>
                             <a href="#" class="user-links"><i class="bi bi-box"></i> My Orders</a>
 
                             <a href="#" class="user-links"><i class="bi bi-gift"></i> My Rewards</a>
-                            <a href="#" style="background-color:#f55d2c; color:white;" class="user-links"><i
-                                    class="bi bi-wallet"></i> My Wallet</a>
-                            <a href="#" class="user-links"><i class="bi bi-heart"></i> Shopping List</a>
-                            <a href="#" class="user-links"><i class="bi bi-geo-alt"></i> My Address</a>
-                            <a href="#" class="user-links"><i class="bi bi-box-arrow-right"></i> Logout</a>
+                            <a href="/wallet.php" class="user-links" style="background-color:#f55d2c; color:white;"><i class="bi bi-wallet"></i> My Wallet</a>
+                            <a href="/wishlist.php" class="user-links" ><i class="bi bi-heart"></i> Shopping List</a>
+                            <a href="/myaddress.php" class="user-links"><i class="bi bi-geo-alt"></i> My Address</a>
+                            <a href="/singin.php" class="user-links"><i class="bi bi-box-arrow-right"></i> Logout</a>
                         </div>
                     </div>
                 </div>
@@ -100,14 +99,14 @@ include 'partials/header.php';
                             <div class="col-lg-12 col-md-12">
 
                                 <div class="col-lg-12 col-md-12">
-                                    <div class="pdpt-bg">
-                                        <div class="pdpt-title">
+                                    <div class="cash-wrapper">
+                                        <div class="cash-title">
                                             <h4>Active Offers</h4>
                                         </div>
                                         <div class="active-offers-body">
                                             <div class="table-responsive">
                                                 <table class="table ucp-table earning__table">
-                                                    <thead class="thead-s">
+                                                    <thead class="thead-table">
                                                         <tr>
                                                             <th scope="col">Offers</th>
                                                             <th scope="col">Offer Code</th>
@@ -115,30 +114,30 @@ include 'partials/header.php';
                                                             <th scope="col">Status</th>
                                                         </tr>
                                                     </thead>
-                                                    <tbody>
+                                                    <tbody id="Tbody">
                                                         <tr>
                                                             <td>15%</td>
                                                             <td>GAMBOCOUP15</td>
                                                             <td>31 May 2020</td>
-                                                            <td><b class="offer_active">Activated</b></td>
+                                                            <td><b class="activated">Activated</b></td>
                                                         </tr>
                                                         <tr>
                                                             <td>10%</td>
                                                             <td>GAMBOCOUP10</td>
                                                             <td>25 May 2020</td>
-                                                            <td><b class="offer_active">Activated</b></td>
+                                                            <td><b class="activated">Activated</b></td>
                                                         </tr>
                                                         <tr>
                                                             <td>25%</td>
                                                             <td>GAMBOCOUP25</td>
                                                             <td>20 May 2020</td>
-                                                            <td><b class="offer_active">Activated</b></td>
+                                                            <td><b class="activated">Activated</b></td>
                                                         </tr>
                                                         <tr>
                                                             <td>5%</td>
                                                             <td>GAMBOCOUP05</td>
                                                             <td>15 May 2020</td>
-                                                            <td><b class="offer_active">Activated</b></td>
+                                                            <td><b class="activated">Activated</b></td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -147,8 +146,78 @@ include 'partials/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-12"></div>
-                            <div class="col-lg-6 col-md-12"></div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="history-wrapper">
+                                     <div class="cash-title">
+                                         <h4>History</h4>
+                                     </div>
+                                     <div class="lis-history">
+                                         <ul>
+                                             <li>
+                                                 <div class="purches">
+                                                     <div class="purches-itms">
+                                                         <h4>Purchase</h4>
+                                                         <p>Transaction ID <ins>GAMBO14255896</ins></p>
+                                                         <span>6 May 2018, 12.56PM</span>
+                                                     </div>
+                                                     <div class="purches-price">
+                                                         <span>-$25</span>
+                                                         <a href="#">
+                                                             View
+                                                         </a>
+                                                     </div>
+                                                 </div>
+                                             </li>
+                                             <li>
+                                             <div class="purches">
+                                                     <div class="purches-itms">
+                                                         <h4>Purchase</h4>
+                                                         <p>Transaction ID <ins>GAMBO14255896</ins></p>
+                                                         <span>6 May 2018, 12.56PM</span>
+                                                     </div>
+                                                     <div class="purches-price">
+                                                         <span>-$25</span>
+                                                         <a href="#">
+                                                             View
+                                                         </a>
+                                                     </div>
+                                                 </div>
+                                             </li>
+                                             <li>
+                                             <div class="purches">
+                                                     <div class="purches-itms">
+                                                         <h4>Purchase</h4>
+                                                         <p>Transaction ID <ins>GAMBO14255896</ins></p>
+                                                         <span>6 May 2018, 12.56PM</span>
+                                                     </div>
+                                                     <div class="purches-price">
+                                                         <span>-$25</span>
+                                                         <a href="#">
+                                                             View
+                                                         </a>
+                                                     </div>
+                                                 </div>
+                                             </li>
+                                             <li>
+                                             <div class="purches">
+                                                     <div class="purches-itms">
+                                                         <h4>Purchase</h4>
+                                                         <p>Transaction ID <ins>GAMBO14255896</ins></p>
+                                                         <span>6 May 2018, 12.56PM</span>
+                                                     </div>
+                                                     <div class="purches-price">
+                                                         <span>-$25</span>
+                                                         <a href="#">
+                                                             View
+                                                         </a>
+                                                     </div>
+                                                 </div>
+                                             </li>
+
+                                         </ul>
+                                     </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -19,7 +19,7 @@
   <title> Gambo - Sing UP</title>
 </head>
 <body>
-  <div class="sing-in-page" style="padding:20px 0px;">
+  <div class="sing-in-page" style="padding:40px 0px;">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-5">
@@ -29,59 +29,35 @@
             <img src="/Images/logo_gambo.svg" alt="logo">
             </a>
           </div> 
-          <div class="sing-in-form-wrapper">
+          <div class="sing-in-form-wrapper"  style="height:370px;">
               <div class="sing-in-form">
               <div class="form-title">
-                    <h3>Sing Up</h3>
+                    <h3>Request a Password Reset</h3>
                   </div>
                 <form action="">
-                <div class="enter-name">
-                  <input type="text" id="sing_in_name" name="fname" placeholder=" Full name"  required>
-                  <i class="bi bi-person-square"></i>
-                  </div> <br>
+
                   <div class="enter-phone">
                   <input type="email" id="sing_in_email" name="emails" placeholder="Enter email address"  multiple>
                   <i class="bi bi-envelope"></i>
                   </div> <br>
                   <div class="enter-phone">
-                  <input type="tel" id="sing_in_phone" name="phone" placeholder="Enter phone number" 
-                  pattern="[0-9]{3}-[0]{1}-[0-9]{2}-[0-9]{3}-[0-9]{3}" required>
-                  <i class="bi bi-phone"></i>
+                  <input type="password" id="sing_in_pass" name="password" placeholder="Enter old password" 
+                  pattern="[0-9]{8}" required>
+                  <i class="bi bi-lock"></i>
                   </div> <br>
                   <div class="enter-phone">
                   <input type="password" id="sing_in_pass" name="password" placeholder="Enter new password" 
                   pattern="[0-9]{8}" required>
                   <i class="bi bi-lock"></i>
-                  </div> <br>
-                  <button type="submit" id="sing_in_btn">Sing Up Now</button>
+                  </div><br>
+                  <button type="submit" id="sing_in_btn">Reset Password</button>
                   <br>
                  
                   
                 </form>
-              </div>
-              <div class="entercode">
-                  <span>Enter Code</span>
-                  <ul  class="code-numbers" >
-                      <li>
-                          <input type="text" id="code">
-                      </li>
-                      <li> 
-                      <input type="text" id="code">
-                      </li>
-                      <li>
-                        <input type="text" id="code"></li>
-                      <li>
-                        <input type="text" id="code"></li>
-                      <li>
-                          <button type="submit" id="sedcode">Send</button>
-                      </li>
-                  </ul>
-                  <span>Resend Code</span>
-                     
-              </div>
-           
+              </div> <br>
               <div class="sing-up-link">
-                    <p>I have an account -</p><a href="#">Sing In Now</a>
+                    <p>Go Back-</p><a href="#">Sing In Now</a>
                    </div>
               <br>
           
