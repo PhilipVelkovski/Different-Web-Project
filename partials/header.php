@@ -448,20 +448,20 @@
                             </div>
                             <div class="cart-pick-offer">
                                 <div class="radio-btn-cart">
-                                    <input type="radio" id="radio1" name="radios" value="all" checked>
-                                    <label for="radio1">0.54</label>
+                                    <label for="radio">
+                                    <input type="radio" id="radio" name="radios" value="all">0.54</label>
                                 </div>
                                 <div class="radio-btn-cart">
-                                    <input type="radio" id="radio2" name="radios" value="all" checked>
-                                    <label for="radio2">5kg</label>
+                                    <label for="radio">
+                                    <input type="radio" id="radio" name="radios" value="all" >5kg</label>
                                 </div>
                                 <div class="radio-btn-cart">
-                                    <input type="radio" id="radio3" name="radios" value="all" checked>
-                                    <label for="radio3">20kg</label>
+                                    <label for="radio"><input type="radio" id="radio" name="radios" value="all" >20kg</label>
                                 </div>
                                 <div class="radio-btn-cart">
-                                    <input type="radio" id="radio4" name="radios" value="all" checked>
-                                    <label for="radio4">60kg</label>
+                                    <label for="radio">
+                                    <input type="radio" id="radio" name="radios" value="all" >60kg
+                                    </label>
                                 </div>
                             </div>
                             <div class="add-products">
@@ -510,8 +510,8 @@
                             <div class="add-products">
                                 <div class="counter">
                                     <input type="button" id="cart-minus" value="-">
-                                    <input type="text" id="cart-quantity" value="1">
-                                    <input type="button" id="cart-add" value="+">
+                                    <input type="number" id="cart-quantity" value="1">
+                                    <button onclick="add()" id="cart-add" >+</button>
                                 </div>
                                 <div class="cart-price-inside">
                                     $10 

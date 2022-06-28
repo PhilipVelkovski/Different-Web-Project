@@ -1911,9 +1911,9 @@ display: block;
     cursor: pointer;
     border-radius: 32%;
   }      
-  .radio-btn-cart input[type="radio"]:checked+label {
+   .radio-btn-cart input[type="radio"]:checked+label {
     background-color: #f55d2c;
-  }
+  } 
 /*POP UP FILTER*/
 .hide-fillter-pop-up{
     display: none;
