@@ -19,12 +19,6 @@ function login(){
 var jhon =  document.getElementById("#usernamevalue").value();
 jhon = document.getElementById("#sing_in_name").value();
 
-<<<<<<< HEAD
-
-
-// $("#usernamevalue").val = imet;
-=======
->>>>>>> new
 
  alert(jhon);
 };
