@@ -19,9 +19,12 @@ function login(){
 var jhon =  document.getElementById("#usernamevalue").value();
 jhon = document.getElementById("#sing_in_name").value();
 
+<<<<<<< HEAD
 
 
 // $("#usernamevalue").val = imet;
+=======
+>>>>>>> new
 
  alert(jhon);
 };
@@ -29,10 +32,10 @@ jhon = document.getElementById("#sing_in_name").value();
 function subscribe(){
      
   $.ajax({ 
-          //Kade se isprakaat podatocite!; istoto vo .NET
+
           url:"/subscription.php",
           data: "text=" + $("#formGroupExampleInput2").val() + "&email=" +$("#exampleInputEmail1").val(),
-          type: "POST", // prakame so post // SO ajax kontaktiraat skriptatat za obrabotka na podatoci so userot 
+          type: "POST", // prakame so post //
           success: function(data){
             $(".contact-respons").html(data);
           },
@@ -44,8 +47,8 @@ function subscribe(){
 };
 
 
-$(document).ready(function(){
 
+$(document).ready(function(){
 
 
 var swiper = new Swiper(".mySwiper", {
@@ -240,13 +243,15 @@ var swiper = new Swiper(".mySwiper", {
    });
 
    
+
+
+
    $("#counter .lower").click(function(event){
     var sum = $(".quantity").val();
      sum-- ;
      
- $(".quantity").val(sum);
-
- });
+    $(".quantity").val(sum);
+    });
  $(".add-quan").click(function(event){
     var sum = $(".quantity").val();
      sum ++ ;
@@ -260,11 +265,12 @@ var swiper = new Swiper(".mySwiper", {
  $(".cart-btn").click(function(){
      $(".hide-cart-pop-up").toggle();
      $(".header").css({"position":"inherit"});
- });
+  });
  $("#exit-cart-pop-up").click(function(){
     $(".hide-cart-pop-up").hide();
     $(".header").css({"position":"fixed"});
-});
+  });
+
 });
 
 

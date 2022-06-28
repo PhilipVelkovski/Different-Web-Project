@@ -1,5 +1,9 @@
+<<<<<<< HEAD
  <?php
 
+=======
+<?php
+>>>>>>> new
 $data = [
     [
         "img" => "/Images/offer-1.jpg"
@@ -13,6 +17,7 @@ $data = [
 function renderProductCard(data) {
     echo "<div class=\"product-image-offers\" src= '. $data .'>";
 } 
+<<<<<<< HEAD
 ?>
 
 <div class="product-image-offers">
@@ -24,3 +29,6 @@ function renderProductCard(data) {
                                 </div>
 
                             </div> 
+=======
+?>
+>>>>>>> new
