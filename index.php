@@ -2,7 +2,19 @@
 $page_title = "Gambo - Index";
 include 'partials/header.php';
 
+// include 'partials/product_card.php';
+
+#defining product card variables
+
+// $productcard1 = [
+//     "img" => ""
+// ]
 ?>
+
+
+
+
+
 
 <div class="content" style="margin-top: 122px;">
 
@@ -12,14 +24,13 @@ include 'partials/header.php';
                 <div class="swiper mySwiper cstm-swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="product-image-offers">
+                        <div class="product-image-offers">
                                 <img src="/Images/offer-1.jpg" alt="eggs">
                                 <div class="offers">
                                     <p>6% off</p>
                                     <div class="offer-title">Buy More save more</div>
                                     <span>Beverages</span>
                                 </div>
-
                             </div>
                             <div class="shop-now-btn"><a href="/"><span>Shop now</span></a></div>
                         </div>

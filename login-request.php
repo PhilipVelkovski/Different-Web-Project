@@ -1,6 +1,7 @@
 <?php 
 $toEmail = "philipvelkovski@gmail.com";
 
+
 $content = '<html><body>';
 $content .= '<p>Name: ' . strip_tags($_POST['fname'])  . '</p>';
 $content .= '<p>Email: ' .  strip_tags($_POST['emails']) . '</p>';

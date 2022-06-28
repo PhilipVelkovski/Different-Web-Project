@@ -3,7 +3,7 @@ function login(){
     
     url:"/login-request.php",
     data: "Name=" + $("#sing_in_name").val() + "&email=" +$("#sing_in_email").val(),
-    type: "POST", // prakame so post // SO ajax kontaktiraat skriptatat za obrabotka na podatoci so userot 
+    type: "POST", // prakame so post 
     success: function(data){
       $(".respones").html(data);
        location.replace("index.php")
@@ -14,9 +14,12 @@ function login(){
     }
    
 });
-const imet =  $("#sing_in_name").val();
+
+// const imet =  $("#sing_in_name").val();
 var jhon =  document.getElementById("#usernamevalue").value();
 jhon = document.getElementById("#sing_in_name").value();
+
+
 
 // $("#usernamevalue").val = imet;
 
@@ -211,13 +214,7 @@ var swiper = new Swiper(".mySwiper", {
         $(".pop-up-list").animate({
             width: "toggle"
        });
-       
-        // if((".pop-up-list").is(":visible")){
-        //     $(".footer").hide(100);
-        // } else {
-        //     $(".footer").show(1);
-        // }
-    });
+  });
 
     $(".list-pages-hidden").click(function(){
         if($(".togle-blog-list-mobile").is(":visible")){
@@ -232,17 +229,7 @@ var swiper = new Swiper(".mySwiper", {
         }
         $(".togle-blog-list-mobile").slideToggle(200);
     });
-
     
-
-    // $(".blog-list-mobile").click(function(){
-    //     if($(".hidden-list").is(":visible")){
-    //         $(".hidden-list").hide();
-    //     }
-
-    //     $(".togle-blog-list-mobile").slideToggle(200);
-    // });
-
    $(".fillter-btn").click(function(){
        $(".header").css({"position":"inherit"});
      $(".hide-fillter-pop-up").show();
