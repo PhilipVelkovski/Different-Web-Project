@@ -143,8 +143,6 @@ var swiper = new Swiper(".mySwiper", {
                 },
       });
 
-// Now you can use all slider methods like
-
      $(".hidden-search-btn").click(function(){
         $(".hidden-search-pop-up").toggle(500);
         $(".header").css({"position":"inherit"});
