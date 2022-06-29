@@ -15,7 +15,6 @@ function login(){
    
 });
 
-// const imet =  $("#sing_in_name").val();
 var jhon =  document.getElementById("#usernamevalue").value();
 jhon = document.getElementById("#sing_in_name").value();
 
@@ -240,21 +239,21 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-   $("#counter .lower").click(function(event){
-    var sum = $(".quantity").val();
-     sum-- ;
+//    $("#counter .lower").click(function(event){
+//     var sum = $(".quantity").val();
+//      sum-- ;
      
-    $(".quantity").val(sum);
-    });
- $(".add-quan").click(function(event){
-    var sum = $(".quantity").val();
-     sum ++ ;
-     console.log("ADD");
- $(".quantity").val(sum);
+//     $(".quantity").val(sum);
+//     });
+//  $(".add-quan").click(function(event){
+//     var sum = $(".quantity").val();
+//      sum ++ ;
+//      console.log("ADD");
+//  $(".quantity").val(sum);
 
  
 
-});
+// });
  //CART-POP-UP
  $(".cart-btn").click(function(){
      $(".hide-cart-pop-up").toggle();
@@ -266,56 +265,3 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 });
-
-
-
-// const add = document.querySelector("#lower");
-// add.addEventListener('click',(event)=>{
-//    console.log("PROBAJ VAKA");
-//  });
-// function counter() {
-    
-//    $("#lower").click(function(event){
-//     var sum = $("#quantity").val();
-//      sum-- ;
-//      console.log("minus");
-     
-//  $("#quantity").val(sum);
-//  });
-//  $("#add-quan").click(function(event){
-//     var sum = $("#quantity").val();
-//      sum ++ ;
-//      console.log("ADD");
-//  $("#quantity").val(sum);
-//  });
-// }
-/*location dropdown mobile */
-
-/*User lisrt */
-
-
-
-/* Pages List */
-
-/*mobile - category */
-// $(document).ready(function(){
-    
-//     $(".select-category-btn-mobile").click(function(){
-//         $(".header").css({"position":"inherit"});
-//         $(".category-pop-up").show();
-//     });
-//     $(".exit").click(function(){
-//         $(".category-pop-up").hide();
-//     });
-    
-// });
-/*mobile list*/
-// $(".pop-up-list").hide();
-
-// $(".togle-blog-list-mobile").hide();
-
-
-// $(document).ready(function(){
-//     if(window.innerWidth < 750) { $('.item-one').css({"display":"none"}) }
-
-// });
