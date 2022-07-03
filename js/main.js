@@ -174,7 +174,7 @@ var swiper = new Swiper(".mySwiper", {
         }
         $(".pages-list").slideToggle(200);
     });
-/* Pages List */
+ /* Pages List */
     $(".blog-list").click(function(){
         if($(".pages-list").is(":visible")){
             $(".pages-list").hide();
@@ -233,25 +233,6 @@ var swiper = new Swiper(".mySwiper", {
     $(".hide-fillter-pop-up").hide();
    });
 
-   
-
-
-
-//    $("#counter .lower").click(function(event){
-//     var sum = $(".quantity").val();
-//      sum-- ;
-     
-//     $(".quantity").val(sum);
-//     });
-//  $(".add-quan").click(function(event){
-//     var sum = $(".quantity").val();
-//      sum ++ ;
-//      console.log("ADD");
-//  $(".quantity").val(sum);
-
- 
-
-// });
  //CART-POP-UP
  $(".cart-btn").click(function(){
      $(".hide-cart-pop-up").toggle();

@@ -6,12 +6,6 @@ include 'partials/header.php';
 include 'partials/product_card.php';
 
 ?>
-
-
-
-
-
-
 <div class="content" style="margin-top: 122px;">
 
 	<div class="container">
@@ -19,7 +13,7 @@ include 'partials/product_card.php';
 			<div class="col-md-12">
 				<div class="swiper mySwiper cstm-swiper">
 					<div class="swiper-wrapper">
-					  <?php echo renderProductCard($data);?>
+						<?php echo renderProductCard($data);?>
 					</div>
 					<!--<div class="swiper-pagination"></div> -->
 				</div>
@@ -141,7 +135,7 @@ include 'partials/product_card.php';
 		<p>For You</p>
 		<h2>Top Featured Products</h2>
 		<div class="products-wraper row">
-			<div class="col-md-12">
+			<div class="col-md-12 col-sm-12">
 				<div class="swiper mySwiper swiper-three">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
@@ -158,11 +152,12 @@ include 'partials/product_card.php';
 										<span class="new-price">15$</span>
 										<span class="old-price">20$</span>
 									</div>
-								</div>
-								<div class="product-floating-items">
+									<div class="product-floating-items">
 									<span class="discount-ammount">6% off</span>
 									<span class="add-to-wishlist-icon"><i class="bi bi-heart"></i></span>
 								</div>
+								</div>
+								
 								<div class="place-order">
 									<div class="row quantity-item">
 										<input type="button" id="lower" value="-">
@@ -397,23 +392,23 @@ include 'partials/product_card.php';
 			<p>Offers</p>
 			<h2>Best Values</h2>
 		</div>
-		<div class="row">
-			<div class="bildoard-wraper ">
-				<div class="col-lg-4 col-md-6">
+		<div class="container">
+			<div class="bildoard-wraper col-lg-12 col-md-12">
+				<div class="col-lg-4 col-md-4">
 					<div class="offers-bilboard">
 						<a href="#">
 							<img src="/Images/bilboard-offer-1 .jpg" alt="Offer One">
 						</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-md-4">
 					<div class="offers-bilboard">
 						<a href="#">
 							<img src="/Images/bilboard-offer-2.jpg" alt="Offer One">
 						</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-md-4">
 					<div class="offers-bilboard">
 						<a href="#">
 							<img src="/Images/bilboard-offer-3.jpg" alt="Offer One">
@@ -421,7 +416,7 @@ include 'partials/product_card.php';
 					</div>
 				</div>
 			</div>
-			<div class="col-md-12">
+			<div class="col-lg-12 col-md-12">
 				<div class="offer-four">
 					<a href="#">
 						<img src="/Images/bilboard-offer-4.jpg" alt="Offer One">

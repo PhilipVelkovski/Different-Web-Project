@@ -14,14 +14,13 @@
        
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link  rel="stylesheet"  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-
-   
+    
     <link rel="stylesheet" href="style.css">
     <script src="/js/jquery.min.js"></script>
   <title> <?php echo $page_title; ?></title>
 </head>
 
-<body>
+<body onload="register()">
     <div class="header container-fluid header-custom">
         <div class="header-top row">
             <div class="col-5 col-lg-3 col-md-4 col-sm-4 " style="padding:0;">
@@ -539,8 +538,3 @@
             </div>
         </div>
     </div>
-    <!-- <i class="bi bi-border-all"></i>
-    <i class="bi bi-box-seam"></i>
-    <i class="bi bi-heart"></i>
-    <i class="bi bi-cash-stack"></i>
-    <i class="bi bi-geo-alt loc-logo"></i> -->
