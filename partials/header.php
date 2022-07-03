@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +19,7 @@
   <title> <?php echo $page_title; ?></title>
 </head>
 
-<body onload="register()">
+<body>
     <div class="header container-fluid header-custom">
         <div class="header-top row">
             <div class="col-5 col-lg-3 col-md-4 col-sm-4 " style="padding:0;">
