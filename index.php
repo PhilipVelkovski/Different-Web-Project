@@ -16,6 +16,7 @@ include 'partials/product_card.php';
 					</div>
 				</div>
 			</div>
+			
 		</div>
 	</div>
 	<div class="container" style="margin-top:50px;">
