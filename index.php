@@ -1,6 +1,5 @@
 <?php 
 $page_title = "Gambo - Index";
-
 include 'partials/header.php';
 #defining product card variables
 include 'partials/product_card.php';
